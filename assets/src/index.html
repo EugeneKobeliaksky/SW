@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="utf-8">
+	<title>"Всесвіт Супергероїв та Minecraft". Найбільша виставка в Україні!</title>
+	<meta name="description"
+          content="Єдина виставка в Україні ”Всесвіт СУПЕРГЕРОЇВ та Minecraft”.
+                    Під час відвідування ви зможете зануритися в таємничий віртуальний світ фантастики,
+                    зробити незабутні фото з героями та їх атрибутами, прокататися на бетмобілі, позмагатися з героями Minecraft,
+                    приміряти костюми героїв, спробувати осили молот Тора... і багато іншого. Ми чекаємо саме на тебе.
+                    Не упусти шанс подарувати собі та рідним незабутні враження. Міста чекають на нас. Приєднуйся і ти.">
+    <meta name="keywords" content="виставка, супергерої, виставка героїв, комікси, майнкрафт">
+    <meta name="author" content="Eugene Kobeliaksky">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="img/icon/favicon.png">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="style/jquery.mCustomScrollbar.css">
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+	//= template/header.html
+	<!-- slider -->
+	<div class="slider">
+		<div class="slider__wrapper">
+		  <div class="slider__item">
+			<img src="img/background/slider/slider_bg-1.png" alt="">
+		  </div>
+		  <div class="slider__item">
+			  <img src="img/background/slider/slider_bg-2.png" alt="">
+		  </div>
+		  <div class="slider__item">
+			<img src="img/background/slider/slider_bg-3.png" alt="">
+		  </div>
+		  <div class="slider__item">
+			  <img src="img/background/slider/slider_bg-4.png" alt="">
+		  </div>
+		</div>
+		<a class="slider__control slider__control_left" href="#" role="button"></a>
+		<a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+	</div>
+	<!-- /slider -->
+	<section class="cover_wrap">
+		<div class="logo_wrap">
+			<img src="img/img-png/logo.png" alt="Логотип виставки" class="logo" title="Логотип виставки">
+		</div>
+		<div class="phone_wrap">
+			<p class="phone_text">38 097 676 38 63</p>
+			<p class="phone_text">38 050 595 58 08</p>
+		</div>
+	</section>
+	//= template/announcement.html
+	<!-- video section -->
+	<section class="video_wrap" id="video-block">
+		<iframe width="100%" height="520" src="https://www.youtube.com/embed/6u7W83jR8RI" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen class="video-block">
+		</iframe>
+	</section>
+	
+	<!-- /video section -->
+	//= template/description_block_desktop.html
+	//= template/description_block_mobile.html
+	//= template/footer.html
+	<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script>
+		(function($){
+        $(window).on("load",function(){
+            $(".content").mCustomScrollbar();
+        });
+    })(jQuery);
+	</script>
+</body>
+</html>

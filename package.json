@@ -1,5 +1,5 @@
 {
-  "name": "robo-expo.com.ua",
+  "name": "www.robo-expo.com.ua",
   "version": "1.0.0",
   "main": "gulpfile.js",
   "devDependencies": {
@@ -23,13 +23,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EugeneKobeliaksky/superhero.net.ua_2.0.git"
+    "url": ""
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EugeneKobeliaksky/superhero.net.ua_2.0/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/EugeneKobeliaksky/superhero.net.ua_2.0#readme",
+  "homepage": "",
   "description": ""
 }

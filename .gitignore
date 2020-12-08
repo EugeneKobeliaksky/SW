@@ -1,5 +1,7 @@
 /node_modules
 /src
+/resource
 *.json
+*.psd
 *.bowerrc
 *.txt

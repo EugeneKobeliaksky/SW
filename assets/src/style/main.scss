@@ -75,17 +75,11 @@
 //
 ///////////////////////////////////
 
-/* width: 100%;
-height: 830px;
-background-image: url(../img/background/cover_bg.png);
-background-size: cover;
-background-position: center; */
-
 body{
    width: 100%;
    height: 100vh;
    background-image: url(../img/bg/mp_bg.png);
-   background-size: cover;
+   background-size: cover top;
    background-position: center;
    .body-wrap{
       padding: 10px;
@@ -148,18 +142,14 @@ body{
                         .noActive{
                            opacity: 0;
                            position: absolute;
-                           top: 0;
-                           left: 0;
                            width: 100%;
-
+                           z-index: 2;
                            @include anim-set;
                         }
                         .active{
-                           opacity: 1;
                            position: absolute;
-                           top: 0;
-                           left: 0;
                            width: 100%;
+                           z-index: 3;
 
                            @include anim-set;
                         }
@@ -241,14 +231,16 @@ body{
                   }
                }
             }
+            /*  */
+            .plate-exh .noActive{
+               opacity: 1;
+            }
+            /*  */
             .plate-exh:nth-child(1){
                margin-right: 25px;
             }
             .plate-exh:nth-child(2){
                margin-left: 25px;
-            }
-            .plate-exh:hover .noActive{
-               opacity: 1;
             }
             .plate-exh:hover .btn-wrap{
                opacity: 1;
@@ -261,4 +253,4 @@ body{
       }
    }
 }
-/* @import "media.scss"; */
+@import "media_mp.scss";

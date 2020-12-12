@@ -1,1 +1,6 @@
+***
 - The resources contain sources in the .psd and .ai format. Design layout, start page and section of the Star Wars exhibition.
+***
+
+///version 1.0.0
+///author: Eugene Kobeliaksky

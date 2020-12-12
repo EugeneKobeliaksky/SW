@@ -1,0 +1,19 @@
+@import "variables.scss";
+@import "fonts.scss";
+
+
+@mixin font-location {
+    font-family: 'Bebas Neue', cursive;
+}
+@mixin font-about-link {
+    font-family: 'BankGothic Md BT';
+}
+@mixin font-date {
+    font-family: 'Jost';
+}
+@mixin font-city-name {
+    font-family: 'Jost';
+}
+@mixin font-btn-info {
+    font-family: 'Proxima Nova Th';
+}

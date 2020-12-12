@@ -1,9 +1,9 @@
 @import "variables.scss";
 @import "fonts.scss";
 
-
+/* font's */
 @mixin font-location {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 @mixin font-about-link {
     font-family: 'BankGothic Md BT';
@@ -16,4 +16,12 @@
 }
 @mixin font-btn-info {
     font-family: 'Proxima Nova Th';
+}
+
+/* animation */
+@mixin anim-set {
+    transition: .3s;
+    transition-delay: .1s;
+
+    animation-timing-function: ease;
 }

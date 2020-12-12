@@ -68,6 +68,114 @@
   font-style: normal;
   font-display: swap; }
 
+/* @font-face {
+    font-family: 'RedDeadCyrillic2';
+    src: url('/fonts/RedDead/RedDeadCyrillic2.eot');
+    src: url('/fonts/RedDead/RedDeadCyrillic2.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/RedDead/RedDeadCyrillic2.woff2') format('woff2'),
+        url('/fonts/RedDead/RedDeadCyrillic2.woff') format('woff'),
+        url('/fonts/RedDead/RedDeadCyrillic2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("/fonts/ProximaNova-Extrabld.eot");
+  src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'BankGothic Md BT';
+  src: url("/fonts/BankGothicBT-Medium.eot");
+  src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("/fonts/Jost-Bold.eot");
+  src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+/* font's */
+/* animation */
+/* @font-face {
+    font-family: 'RedDeadCyrillic2';
+    src: url('/fonts/RedDead/RedDeadCyrillic2.eot');
+    src: url('/fonts/RedDead/RedDeadCyrillic2.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/RedDead/RedDeadCyrillic2.woff2') format('woff2'),
+        url('/fonts/RedDead/RedDeadCyrillic2.woff') format('woff'),
+        url('/fonts/RedDead/RedDeadCyrillic2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("/fonts/ProximaNova-Extrabld.eot");
+  src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'BankGothic Md BT';
+  src: url("/fonts/BankGothicBT-Medium.eot");
+  src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("/fonts/Jost-Bold.eot");
+  src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+.content-wrap {
+  padding: 25px;
+  margin: 0 auto;
+  max-width: 1600px; }
+  .content-wrap h1 {
+    text-shadow: 0 0 13px #000000;
+    font-family: 'BankGothic Md BT';
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ffffff; }
+  .content-wrap .descr-wrap {
+    margin-top: 75px; }
+    .content-wrap .descr-wrap .first-pargrf-wrapp {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+      .content-wrap .descr-wrap .first-pargrf-wrapp .photo-wrapp {
+        width: 1500px;
+        margin-right: 25px; }
+        .content-wrap .descr-wrap .first-pargrf-wrapp .photo-wrapp img {
+          width: 100%; }
+      .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 28px;
+        line-height: 45px;
+        word-wrap: break-word; }
+      .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: start;
+            justify-content: flex-start; }
+        .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap img {
+          width: 400px; }
+
 /* base style */
 *, html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, blockquote, pre,
@@ -136,13 +244,126 @@ a {
 
 /* /base style */
 body {
+  /* @font-face {
+    font-family: 'RedDeadCyrillic2';
+    src: url('/fonts/RedDead/RedDeadCyrillic2.eot');
+    src: url('/fonts/RedDead/RedDeadCyrillic2.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/RedDead/RedDeadCyrillic2.woff2') format('woff2'),
+        url('/fonts/RedDead/RedDeadCyrillic2.woff') format('woff'),
+        url('/fonts/RedDead/RedDeadCyrillic2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+  /* font's */
+  /* animation */
+  /* @font-face {
+    font-family: 'RedDeadCyrillic2';
+    src: url('/fonts/RedDead/RedDeadCyrillic2.eot');
+    src: url('/fonts/RedDead/RedDeadCyrillic2.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/RedDead/RedDeadCyrillic2.woff2') format('woff2'),
+        url('/fonts/RedDead/RedDeadCyrillic2.woff') format('woff'),
+        url('/fonts/RedDead/RedDeadCyrillic2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
   width: 100%;
   height: 100vh;
   background-image: url(../img/bg/mp_bg.png);
-  background-size: cover top;
+  background-size: cover;
   background-position: center; }
+
+@font-face {
+  body {
+    font-family: 'Proxima Nova Th';
+    src: url("/fonts/ProximaNova-Extrabld.eot");
+    src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'BankGothic Md BT';
+    src: url("/fonts/BankGothicBT-Medium.eot");
+    src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'Jost';
+    src: url("/fonts/Jost-Bold.eot");
+    src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'Proxima Nova Th';
+    src: url("/fonts/ProximaNova-Extrabld.eot");
+    src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'BankGothic Md BT';
+    src: url("/fonts/BankGothicBT-Medium.eot");
+    src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'Jost';
+    src: url("/fonts/Jost-Bold.eot");
+    src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap; } }
+  body .content-wrap {
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 1600px; }
+    body .content-wrap h1 {
+      text-shadow: 0 0 13px #000000;
+      font-family: 'BankGothic Md BT';
+      font-size: 75px;
+      font-weight: 500;
+      letter-spacing: 5px;
+      text-align: center;
+      color: #ffffff; }
+    body .content-wrap .descr-wrap {
+      margin-top: 75px; }
+      body .content-wrap .descr-wrap .first-pargrf-wrapp {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+        body .content-wrap .descr-wrap .first-pargrf-wrapp .photo-wrapp {
+          width: 1500px;
+          margin-right: 25px; }
+          body .content-wrap .descr-wrap .first-pargrf-wrapp .photo-wrapp img {
+            width: 100%; }
+        body .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          font-size: 28px;
+          line-height: 45px;
+          word-wrap: break-word; }
+        body .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: start;
+              justify-content: flex-start; }
+          body .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap img {
+            width: 400px; }
   body .body-wrap {
-    padding: 10px;
+    padding: 10px 10px 5px 10px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -166,7 +387,7 @@ body {
             font-stretch: normal;
             font-style: normal;
             line-height: 3;
-            letter-spacing: 5.25px;
+            letter-spacing: 5px;
             text-align: center;
             color: #ffffff;
             transition: .3s;
@@ -176,130 +397,142 @@ body {
           body .body-wrap header .link-info-wrap a .link-text:hover {
             letter-spacing: 10px;
             text-shadow: 0 0 50px #000000; }
-    body .body-wrap .content-wrap .exh-var-wrap {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-      /* flex-wrap: wrap; */
-      /*  */
-      /*  */ }
-      body .body-wrap .content-wrap .exh-var-wrap .plate-exh {
-        width: 100%;
-        height: 100%;
+    body .body-wrap .content-wrap {
+      margin-bottom: 30px; }
+      body .body-wrap .content-wrap .exh-var-wrap {
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-direction: column;
-            flex-direction: column;
         -ms-flex-pack: justify;
             justify-content: space-between;
-        -ms-flex-align: center;
-            align-items: center; }
-        body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-poster-wrap {
-          margin-bottom: 25px; }
-          body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-poster-wrap .poster-container .poster {
-            width: 400px;
-            height: 475px;
-            overflow: hidden;
-            position: relative; }
-            body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-poster-wrap .poster-container .poster .noActive {
-              opacity: 0;
-              position: absolute;
-              width: 100%;
-              z-index: 2;
+        /*  */
+        /*  */ }
+        body .body-wrap .content-wrap .exh-var-wrap .plate-exh {
+          width: 100%;
+          height: 100%;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: column;
+              flex-direction: column;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+          -ms-flex-align: center;
+              align-items: center; }
+          body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-poster-wrap {
+            margin-bottom: 25px; }
+            body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-poster-wrap .poster-container .poster {
+              width: 400px;
+              height: 450px;
+              overflow: hidden;
+              position: relative;
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+              body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-poster-wrap .poster-container .poster .noActive {
+                opacity: 0;
+                position: absolute;
+                width: 90%;
+                transition: .3s;
+                transition-delay: .1s;
+                -webkit-animation-timing-function: ease;
+                        animation-timing-function: ease; }
+              body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-poster-wrap .poster-container .poster .active {
+                position: absolute;
+                width: 90%;
+                transition: .3s;
+                transition-delay: .1s;
+                -webkit-animation-timing-function: ease;
+                        animation-timing-function: ease; }
+          body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap {
+            margin-bottom: 25px;
+            text-align: center; }
+            body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap .info-wrap {
+              -webkit-filter: blur(5px);
+                      filter: blur(5px);
               transition: .3s;
               transition-delay: .1s;
               -webkit-animation-timing-function: ease;
-                      animation-timing-function: ease; }
-            body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-poster-wrap .poster-container .poster .active {
-              position: absolute;
-              width: 100%;
-              z-index: 3;
-              transition: .3s;
-              transition-delay: .1s;
-              -webkit-animation-timing-function: ease;
-                      animation-timing-function: ease; }
-        body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap {
-          margin-bottom: 50px;
-          text-align: center; }
-          body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap .info-wrap {
-            -webkit-filter: blur(5px);
-                    filter: blur(5px);
+                      animation-timing-function: ease;
+              opacity: .3; }
+              body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap .info-wrap .city {
+                margin-bottom: 10px;
+                text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
+                font-family: 'Jost';
+                font-size: 20px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 5.13px;
+                text-align: center;
+                color: #ffffff;
+                text-transform: uppercase; }
+              body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap .info-wrap .date {
+                margin-bottom: 10px;
+                text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
+                font-family: 'Jost';
+                font-size: 40px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 5.13px;
+                text-align: center;
+                color: #ffffff;
+                text-transform: uppercase; }
+              body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap .info-wrap .location {
+                text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
+                font-family: 'Oswald', sans-serif;
+                font-size: 35px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 5.13px;
+                color: #ffffff; }
+          body .body-wrap .content-wrap .exh-var-wrap .plate-exh .btn-wrap {
+            opacity: 0;
             transition: .3s;
             transition-delay: .1s;
             -webkit-animation-timing-function: ease;
-                    animation-timing-function: ease;
-            opacity: .3; }
-            body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap .info-wrap .city {
-              margin-bottom: 10px;
+                    animation-timing-function: ease; }
+            body .body-wrap .content-wrap .exh-var-wrap .plate-exh .btn-wrap .btn a {
               text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
-              font-family: 'Jost';
-              font-size: 25px;
-              font-weight: bold;
-              font-stretch: normal;
-              font-style: normal;
-              line-height: normal;
-              letter-spacing: 5.13px;
-              text-align: center;
-              color: #ffffff;
-              text-transform: uppercase; }
-            body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap .info-wrap .date {
-              margin-bottom: 10px;
-              text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
-              font-family: 'Jost';
-              font-size: 45px;
-              font-weight: bold;
-              font-stretch: normal;
-              font-style: normal;
-              line-height: normal;
-              letter-spacing: 5.13px;
-              text-align: center;
-              color: #ffffff;
-              text-transform: uppercase; }
-            body .body-wrap .content-wrap .exh-var-wrap .plate-exh .exh-info-wrap .info-wrap .location {
-              text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
-              font-family: 'Oswald', sans-serif;
-              font-size: 40px;
+              font-family: 'Proxima Nova Th';
+              font-size: 15px;
               font-weight: normal;
               font-stretch: normal;
               font-style: normal;
-              line-height: normal;
-              letter-spacing: 5.13px;
-              color: #ffffff; }
-        body .body-wrap .content-wrap .exh-var-wrap .plate-exh .btn-wrap {
-          opacity: 0;
-          transition: .3s;
-          transition-delay: .1s;
-          -webkit-animation-timing-function: ease;
-                  animation-timing-function: ease; }
-          body .body-wrap .content-wrap .exh-var-wrap .plate-exh .btn-wrap .btn a {
-            text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
-            font-family: 'Proxima Nova Th';
-            font-size: 20px;
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            text-transform: uppercase;
-            line-height: 2.06;
-            letter-spacing: 3px;
-            text-align: center;
-            color: #ffffff;
-            padding: 15px 40px 15px 40px;
-            border-radius: 20px;
-            box-shadow: 0 0 13px 0 #000000, inset 0 0 8px 0 rgba(0, 0, 0, 0.68);
-            background-color: #c42326; }
-      body .body-wrap .content-wrap .exh-var-wrap .plate-exh .noActive {
-        opacity: 1; }
-      body .body-wrap .content-wrap .exh-var-wrap .plate-exh:nth-child(1) {
-        margin-right: 25px; }
-      body .body-wrap .content-wrap .exh-var-wrap .plate-exh:nth-child(2) {
-        margin-left: 25px; }
-      body .body-wrap .content-wrap .exh-var-wrap .plate-exh:hover .btn-wrap {
-        opacity: 1; }
-      body .body-wrap .content-wrap .exh-var-wrap .plate-exh:hover .info-wrap {
-        -webkit-filter: blur(0px);
-                filter: blur(0px);
-        opacity: 1; }
+              text-transform: uppercase;
+              line-height: 2.06;
+              letter-spacing: 3px;
+              text-align: center;
+              color: #ffffff;
+              padding: 15px 40px 15px 40px;
+              border-radius: 20px;
+              box-shadow: 0 0 13px 0 #000000, inset 0 0 8px 0 rgba(0, 0, 0, 0.68);
+              background-color: #c42326; }
+        body .body-wrap .content-wrap .exh-var-wrap .plate-exh:hover .exh-poster-wrap .poster-container .poster .noActive {
+          opacity: 1; }
+        body .body-wrap .content-wrap .exh-var-wrap .plate-exh:hover .exh-poster-wrap .poster-container .poster .active {
+          opacity: 0; }
+        body .body-wrap .content-wrap .exh-var-wrap .plate-exh:nth-child(1) {
+          margin-right: 25px; }
+        body .body-wrap .content-wrap .exh-var-wrap .plate-exh:nth-child(2) {
+          margin-left: 25px; }
+        body .body-wrap .content-wrap .exh-var-wrap .plate-exh:hover .btn-wrap {
+          opacity: 1; }
+        body .body-wrap .content-wrap .exh-var-wrap .plate-exh:hover .info-wrap {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1; }
+    body .body-wrap .footer-text {
+      margin: 0 auto; }
+      body .body-wrap .footer-text a p {
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 'Jost'; }
 
 /* @font-face {
     font-family: 'RedDeadCyrillic2';

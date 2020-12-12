@@ -1,0 +1,50 @@
+@import "mixins.scss";
+@import "variables.scss";
+@import "fonts.scss";
+
+
+.content-wrap{
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 1600px;
+    h1{
+        text-shadow: 0 0 13px #000000;
+        @include font-about-link;
+        font-size: 75px;
+        font-weight: 500;
+        letter-spacing: 5px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .descr-wrap{
+        margin-top: 75px;
+        .first-pargrf-wrapp{
+            display: flex;
+            justify-content: space-between;
+            .photo-wrapp{
+                width: 1500px;
+                margin-right: 25px;
+                img{
+                    width: 100%;
+                }
+            }
+            .exh-variable{
+                .first-prgrf{
+                    font-family: 'Roboto', sans-serif;
+    
+                    color: white;
+                    font-size: 28px;
+                    line-height: 45px;
+                    word-wrap: break-word;
+                }
+                .logo-wrap{
+                    display: flex;
+                    justify-content: flex-start;
+                    img{
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}

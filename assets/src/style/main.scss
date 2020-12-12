@@ -1,6 +1,7 @@
 @import "mixins.scss";
 @import "variables.scss";
 @import "fonts.scss";
+@import "aboutUs.scss";
 
 /* base style */
    *, html, body, div, span, object, iframe,
@@ -76,13 +77,14 @@
 ///////////////////////////////////
 
 body{
+   @import "aboutUs.scss";
    width: 100%;
    height: 100vh;
    background-image: url(../img/bg/mp_bg.png);
-   background-size: cover top;
+   background-size: cover;
    background-position: center;
    .body-wrap{
-      padding: 10px;
+      padding: 10px 10px 5px 10px;
       display: flex;
       flex-direction: column;
       justify-content: start;
@@ -104,7 +106,7 @@ body{
                   font-stretch: normal;
                   font-style: normal;
                   line-height: 3;
-                  letter-spacing: 5.25px;
+                  letter-spacing: 5px;
                   text-align: center;
                   color: #ffffff;
 
@@ -118,10 +120,10 @@ body{
          }
       }
       .content-wrap{
+         margin-bottom: 30px;
          .exh-var-wrap{
             display: flex;
             justify-content: space-between;
-            /* flex-wrap: wrap; */
             .plate-exh{
                width: 100%;
                height: 100%;
@@ -135,29 +137,28 @@ body{
                   .poster-container{
                      .poster{
                         width: 400px;
-                        height: 475px;
+                        height: 450px;
                         overflow: hidden;
 
                         position: relative;
+                        display: flex;
+                        justify-content: center;
                         .noActive{
                            opacity: 0;
                            position: absolute;
-                           width: 100%;
-                           z-index: 2;
+                           width: 90%;
                            @include anim-set;
                         }
                         .active{
                            position: absolute;
-                           width: 100%;
-                           z-index: 3;
-
+                           width: 90%;
                            @include anim-set;
                         }
                      }
                   }
                }
                .exh-info-wrap{
-                  margin-bottom: 50px;
+                  margin-bottom: 25px;
                   text-align: center;
                   .info-wrap{
                      filter: blur(5px);
@@ -167,7 +168,7 @@ body{
                         margin-bottom: 10px;
                         text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
                         @include font-date;
-                        font-size: 25px;
+                        font-size: 20px;
                         font-weight: bold;
                         font-stretch: normal;
                         font-style: normal;
@@ -182,7 +183,7 @@ body{
                         margin-bottom: 10px;
                         text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
                         @include font-date;
-                        font-size: 45px;
+                        font-size: 40px;
                         font-weight: bold;
                         font-stretch: normal;
                         font-style: normal;
@@ -196,7 +197,7 @@ body{
                      .location{
                         text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
                         @include font-location;
-                        font-size: 40px;
+                        font-size: 35px;
                         font-weight: normal;
                         font-stretch: normal;
                         font-style: normal;
@@ -213,7 +214,7 @@ body{
                      a{
                         text-shadow: 0 0 27px rgba(0, 0, 0, 0.67);
                         @include font-btn-info;
-                        font-size: 20px;
+                        font-size: 15px;
                         font-weight: normal;
                         font-stretch: normal;
                         font-style: normal;
@@ -232,8 +233,11 @@ body{
                }
             }
             /*  */
-            .plate-exh .noActive{
+            .plate-exh:hover .exh-poster-wrap .poster-container .poster .noActive{
                opacity: 1;
+            }
+            .plate-exh:hover .exh-poster-wrap .poster-container .poster .active{
+               opacity: 0;
             }
             /*  */
             .plate-exh:nth-child(1){
@@ -251,6 +255,19 @@ body{
             }
          }
       }
+      .footer-text{
+         margin: 0 auto;
+         a{
+             p{
+                 color: aliceblue;
+                 text-decoration: none;
+                 font-size: 14px;
+
+                 @include font-date;
+             }
+         }
+     }
    }
+   
 }
 @import "media_mp.scss";

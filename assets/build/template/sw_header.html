@@ -1,35 +1,49 @@
-<header>
-    <section class="header_content_wrap">
-        <div class="logo_wrap">
-            <a href="index.html">
-                <img src="img/img-png/logo-2.png" alt="">
-            </a>
-        </div>
-        <div class="arrow-wrap">
-            <img src="img/icon/down-arrow.svg" alt="" class="arrow" id="btn-down">
-        </div>
-        <nav class="navigation_wrap" id="mobile-bar">
-            <ul class="nav_list">
-                <li class="nav_item">
-                    <a href="index.html">Головна</a>
-                </li>
-                <li class="nav_item">
-                    <a href="about.html">про нас</a>
-                </li>
-                <li class="nav_item">
-                    <a href="price.html"> ціни</a>
-                </li>
-                <!-- <li class="nav_item">
-                    <a href="discount.html">дисконти</a>
-                </li> -->
-                <li class="nav_item drop-item">
-                    <a href="gallery.html" class="drop-item">Фото</a>
-                </li>
-                <li class="nav_item">
-                    <a href="contact.html">контакти</a>
-                </li>
+<div class="header_nav">
+    <div class="logo_wrapp">
+        <a href="index.html">
+            <img src="img/sw_page/logo.svg" alt="">
+        </a>
+    </div>
+    <div class="navbar_wrapp">
+        <div class="contact-wrapp">
+            <span class="contact-title">Знайти нас</span>
+            <svg class="icon dp" id="btn-down">
+                <use xlink:href="#phone"></use>
+            </svg>
+            <ul class="dropmenu" id="phone-bar">
+                <li><a href="tel:+380993432657" class="ph_number">099 343 26 57</a></li>
+                <li><a href="tel:+380634221427" class="ph_number">063 422 14 27</a></li>
             </ul>
-            <!-- <img src="img/icon/up-arrow.svg" alt=""  id="btn-up" class="arrow"> -->
-        </nav>
-    </section>
-</header>
+            <svg class="icon">
+                <use xlink:href="#insta"></use>
+            </svg>
+            <svg class="icon">
+                <use xlink:href="#fb"></use>
+            </svg>
+        </div>
+        <div class="dropdown-wrap">
+            <div class="btn-wrapp">
+                <svg class="btn close" id="btn-op">
+                    <use xlink:href="#btn-close"></use>
+                </svg>
+                <svg class="btn open" id="btn-cl">
+                    <use xlink:href="#btn-open"></use>
+                </svg>
+            </div>
+            <div class="dropdown-menu">
+                <ul>
+                    <li><a href="index.html">На головну</a></li>
+                    <li><a href="aboutUs.html">Про нас</a></li>
+                    <li><a href="#section2">Про виставку</a></li>
+                    <li><a href="">Вiдео виставки</a></li>
+                    <li><a href="">Фото виставки</a></li>
+                    <li><a href="">Де знайти</a></li>
+                    <li><a href="">Контакти</a></li>
+                    <li><a href="" class="null">123</a></li>
+                    <li><a href="sw_poster.html">Афiша виставка</a></li>
+                    <li><a href="sw_hero.html">Героi галактики</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

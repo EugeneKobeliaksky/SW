@@ -1,29 +1,9 @@
-@font-face {
-  font-family: 'Proxima Nova Th';
-  src: url("/fonts/ProximaNova-Extrabld.eot");
-  src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'BankGothic Md BT';
-  src: url("/fonts/BankGothicBT-Medium.eot");
-  src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'Jost';
-  src: url("/fonts/Jost-Bold.eot");
-  src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-
+/* @import "variables.scss";
+@import "fonts.scss"; */
 /* font's */
 /* animation */
+/* icon */
+/* geometry */
 @font-face {
   font-family: 'Proxima Nova Th';
   src: url("/fonts/ProximaNova-Extrabld.eot");
@@ -46,6 +26,30 @@
   src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url("Exo2-Italic.eot");
+  src: url("Exo2-Italic.eot?#iefix") format("embedded-opentype"), url("Exo2-Italic.woff2") format("woff2"), url("Exo2-Italic.woff") format("woff"), url("Exo2-Italic.ttf") format("truetype"), url("Exo2-Italic.svg#Exo2-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Star Jedi';
+  src: url("StarJedi.eot");
+  src: url("StarJedi.eot?#iefix") format("embedded-opentype"), url("StarJedi.woff2") format("woff2"), url("StarJedi.woff") format("woff"), url("StarJedi.ttf") format("truetype"), url("StarJedi.svg#StarJedi") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk Pro Bold Ext';
+  src: url("AkzidenzGroteskPro-BoldExIt.eot");
+  src: url("AkzidenzGroteskPro-BoldExIt.eot?#iefix") format("embedded-opentype"), url("AkzidenzGroteskPro-BoldExIt.woff2") format("woff2"), url("AkzidenzGroteskPro-BoldExIt.woff") format("woff"), url("AkzidenzGroteskPro-BoldExIt.ttf") format("truetype"), url("AkzidenzGroteskPro-BoldExIt.svg#AkzidenzGroteskPro-BoldExIt") format("svg");
+  font-weight: bold;
+  font-style: italic;
   font-display: swap; }
 
 .back {
@@ -55,7 +59,7 @@
   margin-top: 50px;
   background-color: #e6e6e6;
   border-radius: 15px;
-  transition: .3s;
+  transition: .2s;
   transition-delay: .1s;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
@@ -72,7 +76,7 @@
   .back .text-wrap {
     display: none;
     margin-left: 15px;
-    transition: .3s;
+    transition: .2s;
     transition-delay: .1s;
     -webkit-animation-timing-function: ease;
             animation-timing-function: ease; }

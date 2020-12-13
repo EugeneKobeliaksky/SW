@@ -1,3 +1,9 @@
+/* @import "variables.scss";
+@import "fonts.scss"; */
+/* font's */
+/* animation */
+/* icon */
+/* geometry */
 @font-face {
   font-family: 'Proxima Nova Th';
   src: url("/fonts/ProximaNova-Extrabld.eot");
@@ -22,7 +28,362 @@
   font-style: normal;
   font-display: swap; }
 
-/* font's */
-/* animation */
+@font-face {
+  font-family: 'Exo 2';
+  src: url("Exo2-Italic.eot");
+  src: url("Exo2-Italic.eot?#iefix") format("embedded-opentype"), url("Exo2-Italic.woff2") format("woff2"), url("Exo2-Italic.woff") format("woff"), url("Exo2-Italic.ttf") format("truetype"), url("Exo2-Italic.svg#Exo2-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Star Jedi';
+  src: url("StarJedi.eot");
+  src: url("StarJedi.eot?#iefix") format("embedded-opentype"), url("StarJedi.woff2") format("woff2"), url("StarJedi.woff") format("woff"), url("StarJedi.ttf") format("truetype"), url("StarJedi.svg#StarJedi") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk Pro Bold Ext';
+  src: url("AkzidenzGroteskPro-BoldExIt.eot");
+  src: url("AkzidenzGroteskPro-BoldExIt.eot?#iefix") format("embedded-opentype"), url("AkzidenzGroteskPro-BoldExIt.woff2") format("woff2"), url("AkzidenzGroteskPro-BoldExIt.woff") format("woff"), url("AkzidenzGroteskPro-BoldExIt.ttf") format("truetype"), url("AkzidenzGroteskPro-BoldExIt.svg#AkzidenzGroteskPro-BoldExIt") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+
+/* base style */
+*, html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, h3, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+a {
+  cursor: pointer; }
+
+::-webkit-scrollbar-button {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 0px; }
+
+::-webkit-scrollbar-track {
+  background-color: #ecedee; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background-color: #d7190f;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d7190f; }
+
+::-webkit-resizer {
+  background-image: url("");
+  background-repeat: no-repeat;
+  width: 4px;
+  height: 0px; }
+
+::-webkit-scrollbar {
+  width: 10px; }
+
+.workspace-width {
+  margin: 0 auto;
+  max-width: 1500px; }
+
+/* /base style */
+body {
+  /* @import "variables.scss";
+@import "fonts.scss"; */
+  /* font's */
+  /* animation */
+  /* icon */
+  /* geometry */
+  background-color: #e7e6ed; }
+
+@font-face {
+  body {
+    font-family: 'Proxima Nova Th';
+    src: url("/fonts/ProximaNova-Extrabld.eot");
+    src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'BankGothic Md BT';
+    src: url("/fonts/BankGothicBT-Medium.eot");
+    src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'Jost';
+    src: url("/fonts/Jost-Bold.eot");
+    src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'Exo 2';
+    src: url("Exo2-Italic.eot");
+    src: url("Exo2-Italic.eot?#iefix") format("embedded-opentype"), url("Exo2-Italic.woff2") format("woff2"), url("Exo2-Italic.woff") format("woff"), url("Exo2-Italic.ttf") format("truetype"), url("Exo2-Italic.svg#Exo2-Italic") format("svg");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'Star Jedi';
+    src: url("StarJedi.eot");
+    src: url("StarJedi.eot?#iefix") format("embedded-opentype"), url("StarJedi.woff2") format("woff2"), url("StarJedi.woff") format("woff"), url("StarJedi.ttf") format("truetype"), url("StarJedi.svg#StarJedi") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; } }
+
+@font-face {
+  body {
+    font-family: 'Akzidenz-Grotesk Pro Bold Ext';
+    src: url("AkzidenzGroteskPro-BoldExIt.eot");
+    src: url("AkzidenzGroteskPro-BoldExIt.eot?#iefix") format("embedded-opentype"), url("AkzidenzGroteskPro-BoldExIt.woff2") format("woff2"), url("AkzidenzGroteskPro-BoldExIt.woff") format("woff"), url("AkzidenzGroteskPro-BoldExIt.ttf") format("truetype"), url("AkzidenzGroteskPro-BoldExIt.svg#AkzidenzGroteskPro-BoldExIt") format("svg");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap; } }
+  body .back {
+    position: fixed;
+    left: 45px;
+    padding: 5px 5px;
+    margin-top: 50px;
+    background-color: #e6e6e6;
+    border-radius: 15px;
+    transition: .2s;
+    transition-delay: .1s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    font-weight: 700;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -webkit-animation: robot 2s ease-in-out infinite;
+            animation: robot 2s ease-in-out infinite;
+    z-index: 10; }
+    body .back img {
+      width: 25px; }
+    body .back .text-wrap {
+      display: none;
+      margin-left: 15px;
+      transition: .2s;
+      transition-delay: .1s;
+      -webkit-animation-timing-function: ease;
+              animation-timing-function: ease; }
+      body .back .text-wrap p {
+        font-family: 'Jost';
+        color: #616161;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 15px; }
+
+@-webkit-keyframes robot {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes robot {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+  body .back:hover {
+    padding: 5px 15px 5px 5px;
+    -webkit-animation: none;
+            animation: none; }
+  body .back:hover .text-wrap {
+    display: block; }
+  body .header_wrapp {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/sw_page/header_bg.png");
+    background-size: cover;
+    background-position: center; }
+    body .header_wrapp .header_nav {
+      padding-top: 35px;
+      padding-left: 15px;
+      padding-right: 15px;
+      max-width: 1360px;
+      margin: 0 auto;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-align: center;
+          align-items: center; }
+      body .header_wrapp .header_nav .logo_wrapp {
+        width: 350px; }
+        body .header_wrapp .header_nav .logo_wrapp a img {
+          width: 100%; }
+      body .header_wrapp .header_nav .navbar_wrapp {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -ms-flex-align: center;
+            align-items: center; }
+        body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center;
+          position: relative;
+          margin-right: 110px;
+          /* .dp:hover + .dropmenu{
+                  display: block;
+               } */ }
+          body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp .contact-title {
+            font-family: 'Star Jedi';
+            font-size: 24px;
+            font-weight: normal;
+            letter-spacing: 2px;
+            color: #797979;
+            margin-right: 50px; }
+          body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp .dropmenu {
+            display: none;
+            position: absolute;
+            top: 55px;
+            left: 115px;
+            list-style: none;
+            border-radius: 15px 0 0 0;
+            border-bottom: 10px solid #ff0000;
+            padding: 15px 15px 15px 25px;
+            background-color: #1f1f28;
+            transition: .2s;
+            transition-delay: .1s;
+            -webkit-animation-timing-function: ease;
+                    animation-timing-function: ease; }
+            body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp .dropmenu li .ph_number {
+              color: #fff;
+              font-family: 'Jost';
+              margin-bottom: 15px; }
+            body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp .dropmenu li .ph_number:last-child {
+              margin-bottom: 0; }
+          body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp .icon {
+            width: 54px;
+            height: 54px;
+            fill: #5b5b5b;
+            transition: .2s;
+            transition-delay: .1s;
+            -webkit-animation-timing-function: ease;
+                    animation-timing-function: ease; }
+          body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp .icon:hover {
+            fill: #ff0000; }
+        body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap {
+          position: relative;
+          /* .btn-wrapp:hover .btn{
+                  fill: #ff0000;
+               } */ }
+          body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp {
+            width: 70px;
+            height: 70px;
+            background: #e8e8e8;
+            border-bottom: 7px solid #d6d6d6;
+            position: relative;
+            transition: .2s;
+            transition-delay: .1s;
+            -webkit-animation-timing-function: ease;
+                    animation-timing-function: ease; }
+            body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp .btn {
+              fill: #5b5b5b;
+              width: 58px;
+              position: absolute;
+              top: -40px;
+              left: 10px;
+              transition: .2s;
+              transition-delay: .1s;
+              -webkit-animation-timing-function: ease;
+                      animation-timing-function: ease; }
+            body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp .open {
+              width: 60px;
+              width: 50px;
+              display: none; }
+            body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp .close {
+              width: 80px;
+              width: 50px; }
+          body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp:hover {
+            background: #d5d5d5; }
+          body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu {
+            list-style: none;
+            border-radius: 15px 0 0 0;
+            border-bottom: 10px solid #ff0000;
+            padding: 15px 15px 15px 25px;
+            background-color: #1f1f28;
+            transition: .2s;
+            transition-delay: .1s;
+            -webkit-animation-timing-function: ease;
+                    animation-timing-function: ease;
+            border-radius: 25px 0 0 25px;
+            width: 150px;
+            left: -120px;
+            position: absolute;
+            display: none; }
+            body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu ul {
+              list-style: none;
+              text-align: right; }
+              body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu ul li a {
+                text-decoration: none;
+                color: #fff;
+                font-family: 'Jost';
+                margin-bottom: 15px;
+                transition: .2s;
+                transition-delay: .1s;
+                -webkit-animation-timing-function: ease;
+                        animation-timing-function: ease; }
+              body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu ul li a:hover {
+                color: #ffec20; }
+              body .header_wrapp .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu ul li .null {
+                opacity: 0; }
 
 /*# sourceMappingURL=sw-style.css.map */

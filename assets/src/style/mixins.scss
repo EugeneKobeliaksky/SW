@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "fonts.scss";
+/* @import "variables.scss";
+@import "fonts.scss"; */
 
 /* font's */
 @mixin font-location {
@@ -17,11 +17,46 @@
 @mixin font-btn-info {
     font-family: 'Proxima Nova Th';
 }
+@mixin font-exo {
+    font-family: 'Exo 2';
+}
+@mixin font-sw {
+    font-family: 'Star Jedi';
+}
+@mixin font-akzi {
+    font-family: 'Akzidenz-Grotesk Pro Bold Ext';
+}
 
 /* animation */
 @mixin anim-set {
-    transition: .3s;
+    transition: .2s;
     transition-delay: .1s;
 
     animation-timing-function: ease;
+}
+
+/* icon */
+@mixin icon-style{
+    width: 54px;
+    height: 54px;
+
+    fill: #5b5b5b;
+}
+@mixin icon-style-hover{
+    fill: #ff0000;
+}
+
+/* geometry */
+@mixin dropdwn-bg{
+    list-style: none;
+
+    border-radius: 15px 0 0 0;
+    border-bottom: 10px solid #ff0000;
+
+    padding: 15px 15px 15px 25px;
+    background-color: #1f1f28;
+
+    
+
+    @include anim-set;
 }

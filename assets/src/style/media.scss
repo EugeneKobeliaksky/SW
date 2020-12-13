@@ -1,0 +1,136 @@
+@import "mixins.scss";
+
+@media only screen and (max-width: 1400px){
+    body{
+        .content-wrapper{
+            padding-top: 75px;
+            .descr-wrap{
+                .first-pargrf-wrapp{
+                    flex-direction: column;
+                    align-items: center;
+                    .photo-wrapp{
+                        width: 50%;
+                        margin-bottom: 50px;
+                    }
+                    .exh-variable{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px){
+    body{
+        background-image: url(../img/bg/mp_bg-mobile.png);
+        background-position: top;
+        .body-wrap{
+            header{
+                margin-bottom: 75px;
+                .link-info-wrap{
+                    width: 100%;
+                    a{
+                        .link-text{
+                            font-size: 60px;
+                            margin: 0 auto;
+                        }
+                        .link-text:hover{
+                            letter-spacing: 5;
+                         }
+                    } 
+                }
+            }
+            .content-wrap{
+                .exh-var-wrap{
+                    flex-direction: column;
+                    align-items: center;
+                    .plate-exh{
+                        margin-bottom: 125px;
+                        .exh-poster-wrap{
+                            .poster-container{
+                                .poster{
+                                    max-width: 600px;
+                                    /* width: 400px; */
+                                    .noActive{
+                                        opacity: 1;
+                                    }
+                                    .active{
+                                        opacity: 0;
+                                    }
+                                }
+                            }
+                        }
+                        .exh-info-wrap{
+                            .info-wrap{
+                                filter: blur(0);
+                                opacity: 1;
+                            }
+                        }
+                        .btn-wrap{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media only screen and (max-width: 700px){
+    body{
+        .content-wrapper{
+            padding-top: 100px;
+            h1{
+                font-size: 45px;
+            }
+            .descr-wrap{
+                .first-pargrf-wrapp{
+                    .photo-wrapp{
+                        width: 80%;
+                        margin-bottom: 50px;
+                    }
+                    .exh-variable{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .first-prgrf{
+                            font-size: 20px;
+                        }
+                        .logo-wrap{
+                            a{
+                                img{
+                                    width: 200px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 370px){
+    body{
+        .content-wrapper{
+            .descr-wrap{
+                .first-pargrf-wrapp{
+                    .exh-variable{
+                        .first-prgrf{
+                            font-size: 17px;
+                        }
+                        .logo-wrap{
+                            flex-direction: column;
+                            a{
+                                img{
+                                    width: 200px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

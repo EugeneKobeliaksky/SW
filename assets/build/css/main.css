@@ -275,12 +275,12 @@
 .back:hover .text-wrap {
   display: block; }
 
-.content-wrap {
+.content-wrapper {
   padding: 25px;
   margin: 0 auto;
   max-width: 1400px;
   position: relative; }
-  .content-wrap h1 {
+  .content-wrapper h1 {
     text-shadow: 0 0 13px #000000;
     font-family: 'BankGothic Md BT';
     font-size: 75px;
@@ -288,59 +288,59 @@
     letter-spacing: 5px;
     text-align: center;
     color: #ffffff; }
-  .content-wrap .descr-wrap {
+  .content-wrapper .descr-wrap {
     margin-top: 75px;
     font-family: 'Jura', sans-serif; }
-    .content-wrap .descr-wrap .first-pargrf-wrapp {
+    .content-wrapper .descr-wrap .first-pargrf-wrapp {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: justify;
           justify-content: space-between;
       margin-bottom: 25px; }
-      .content-wrap .descr-wrap .first-pargrf-wrapp .photo-wrapp {
+      .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp {
         width: 1500px;
         margin-right: 25px; }
-        .content-wrap .descr-wrap .first-pargrf-wrapp .photo-wrapp img {
+        .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp img {
           width: 100%; }
-      .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+      .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
         color: white;
         font-size: 28px;
         line-height: 45px;
         word-wrap: break-word;
         font-weight: 500; }
-      .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
+      .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: start;
             justify-content: flex-start;
         -ms-flex-align: center;
             align-items: center; }
-        .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a {
+        .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a {
           transition: .3s;
           transition-delay: .1s;
           -webkit-animation-timing-function: ease;
                   animation-timing-function: ease; }
-          .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
+          .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
             width: 350px;
             min-width: 250px; }
-        .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a:hover {
+        .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a:hover {
           -webkit-transform: scale(1.1);
                   transform: scale(1.1); }
-    .content-wrap .descr-wrap h4 {
+    .content-wrapper .descr-wrap h4 {
       color: white;
       font-size: 35px;
       margin-bottom: 15px;
       text-indent: 40px;
       font-weight: 700; }
-    .content-wrap .descr-wrap p {
+    .content-wrapper .descr-wrap p {
       color: white;
       font-size: 18px;
       text-indent: 40px;
       margin-bottom: 25px;
       font-weight: 300; }
-  .content-wrap .footer-text {
+  .content-wrapper .footer-text {
     text-align: center; }
-    .content-wrap .footer-text a p {
+    .content-wrapper .footer-text a p {
       color: aliceblue;
       text-decoration: none;
       font-size: 14px;
@@ -752,12 +752,12 @@ body {
     background-color: #9d2525; }
   body .back:hover .text-wrap {
     display: block; }
-  body .content-wrap {
+  body .content-wrapper {
     padding: 25px;
     margin: 0 auto;
     max-width: 1400px;
     position: relative; }
-    body .content-wrap h1 {
+    body .content-wrapper h1 {
       text-shadow: 0 0 13px #000000;
       font-family: 'BankGothic Md BT';
       font-size: 75px;
@@ -765,72 +765,71 @@ body {
       letter-spacing: 5px;
       text-align: center;
       color: #ffffff; }
-    body .content-wrap .descr-wrap {
+    body .content-wrapper .descr-wrap {
       margin-top: 75px;
       font-family: 'Jura', sans-serif; }
-      body .content-wrap .descr-wrap .first-pargrf-wrapp {
+      body .content-wrapper .descr-wrap .first-pargrf-wrapp {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: justify;
             justify-content: space-between;
         margin-bottom: 25px; }
-        body .content-wrap .descr-wrap .first-pargrf-wrapp .photo-wrapp {
+        body .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp {
           width: 1500px;
           margin-right: 25px; }
-          body .content-wrap .descr-wrap .first-pargrf-wrapp .photo-wrapp img {
+          body .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp img {
             width: 100%; }
-        body .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+        body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
           color: white;
           font-size: 28px;
           line-height: 45px;
           word-wrap: break-word;
           font-weight: 500; }
-        body .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
+        body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
           display: -ms-flexbox;
           display: flex;
           -ms-flex-pack: start;
               justify-content: flex-start;
           -ms-flex-align: center;
               align-items: center; }
-          body .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a {
+          body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a {
             transition: .3s;
             transition-delay: .1s;
             -webkit-animation-timing-function: ease;
                     animation-timing-function: ease; }
-            body .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
+            body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
               width: 350px;
               min-width: 250px; }
-          body .content-wrap .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a:hover {
+          body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a:hover {
             -webkit-transform: scale(1.1);
                     transform: scale(1.1); }
-      body .content-wrap .descr-wrap h4 {
+      body .content-wrapper .descr-wrap h4 {
         color: white;
         font-size: 35px;
         margin-bottom: 15px;
         text-indent: 40px;
         font-weight: 700; }
-      body .content-wrap .descr-wrap p {
+      body .content-wrapper .descr-wrap p {
         color: white;
         font-size: 18px;
         text-indent: 40px;
         margin-bottom: 25px;
         font-weight: 300; }
-    body .content-wrap .footer-text {
+    body .content-wrapper .footer-text {
       text-align: center; }
-      body .content-wrap .footer-text a p {
+      body .content-wrapper .footer-text a p {
         color: aliceblue;
         text-decoration: none;
         font-size: 14px;
         font-family: 'Jost'; }
   body .body-wrap {
-    padding: 10px 10px 5px 10px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
-    -ms-flex-pack: start;
-        justify-content: start;
-    /* height: 100vh; */ }
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 100vh; }
     body .body-wrap header {
       height: 115px; }
       body .body-wrap header .link-info-wrap {
@@ -858,7 +857,7 @@ body {
             letter-spacing: 10px;
             text-shadow: 0 0 50px #000000; }
     body .body-wrap .content-wrap {
-      margin-bottom: 30px; }
+      margin-bottom: 15px; }
       body .body-wrap .content-wrap .exh-var-wrap {
         display: -ms-flexbox;
         display: flex;
@@ -1030,6 +1029,25 @@ body {
 
 /* font's */
 /* animation */
+@media only screen and (max-width: 1400px) {
+  body .content-wrapper {
+    padding-top: 75px; }
+    body .content-wrapper .descr-wrap .first-pargrf-wrapp {
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: center;
+          align-items: center; }
+      body .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp {
+        width: 50%;
+        margin-bottom: 50px; }
+      body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-align: center;
+            align-items: center; } }
+
 @media only screen and (max-width: 900px) {
   body {
     background-image: url(../img/bg/mp_bg-mobile.png);
@@ -1063,5 +1081,34 @@ body {
           opacity: 1; }
         body .body-wrap .content-wrap .exh-var-wrap .plate-exh .btn-wrap {
           opacity: 1; } }
+
+@media only screen and (max-width: 700px) {
+  body .content-wrapper {
+    padding-top: 100px; }
+    body .content-wrapper h1 {
+      font-size: 45px; }
+    body .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp {
+      width: 80%;
+      margin-bottom: 50px; }
+    body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: center;
+          align-items: center; }
+      body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+        font-size: 20px; }
+      body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
+        width: 200px; } }
+
+@media only screen and (max-width: 370px) {
+  body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+    font-size: 17px; }
+  body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
+      width: 200px; } }
 
 /*# sourceMappingURL=main.css.map */

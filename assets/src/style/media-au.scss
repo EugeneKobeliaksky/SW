@@ -1,0 +1,9 @@
+@import "mixins.scss";
+
+@media only screen and (max-width: 1400px){
+    body{
+        .content-wrap{
+            padding-top: 150px;
+        }
+    }
+}

@@ -18,6 +18,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
 	<!-- /Fonts google -->
+	<link rel="stylesheet" media="all and (min-width: 1025px)" href="css/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -30,7 +32,10 @@
 			</div>
 		</header>
 		<section class="content-wrap workspace-width">
-			<div class="exh-var-wrap">
+			<div class="exh-var-wrap"   data-aos="fade-up"
+										data-aos-offset="5"
+										data-aos-delay="500"
+										data-aos-duration="10000">
 				<div class="plate-exh">
 					<a class="exh-poster-wrap" href="transformers-expo.html">
 						<div class="poster-container">
@@ -78,7 +83,7 @@
 			</div>
 	
 		</section>
-		<section class="footer-text">
+		<footer class="footer-text">
 			<a href="">
 				<p>&copy; 2020
 					<script>
@@ -87,7 +92,13 @@
 					, RoboExpoUkraine. All rights reserved.
 				</p>
 			</a>
-		</section>
+		</footer>
 	</section>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLcuG5jAMpmeoKD8zyLxQ0Cu-KGH8t0FA&callback=initMap"></script>
+    <script src="js/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 </html>

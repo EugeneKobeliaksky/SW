@@ -1,50 +1,87 @@
 @import "mixins.scss";
 @import "variables.scss";
 @import "fonts.scss";
+@import "btn-back.scss";
 
-
-.content-wrap{
-    padding: 25px;
-    margin: 0 auto;
-    max-width: 1600px;
-    h1{
-        text-shadow: 0 0 13px #000000;
-        @include font-about-link;
-        font-size: 75px;
-        font-weight: 500;
-        letter-spacing: 5px;
-        text-align: center;
-        color: #ffffff;
-    }
-    .descr-wrap{
-        margin-top: 75px;
-        .first-pargrf-wrapp{
-            display: flex;
-            justify-content: space-between;
-            .photo-wrapp{
-                width: 1500px;
-                margin-right: 25px;
-                img{
-                    width: 100%;
+    .content-wrap{
+        padding: 25px;
+        margin: 0 auto;
+        max-width: 1400px;
+        position: relative;    
+        h1{
+            text-shadow: 0 0 13px #000000;
+            @include font-about-link;
+            font-size: 75px;
+            font-weight: 500;
+            letter-spacing: 5px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .descr-wrap{
+            margin-top: 75px;
+            font-family: 'Jura', sans-serif;
+            .first-pargrf-wrapp{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 25px;
+                .photo-wrapp{
+                    width: 1500px;
+                    margin-right: 25px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .exh-variable{
+                    .first-prgrf{
+        
+                        color: white;
+                        font-size: 28px;
+                        line-height: 45px;
+                        word-wrap: break-word;
+                        font-weight: 500;
+                    }
+                    .logo-wrap{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        a{
+                            @include anim-set;
+                            img{
+                                width: 350px;
+                                min-width: 250px;
+                            }
+                        }
+                        a:hover{
+                            transform: scale(1.1);
+                        }
+                    }
                 }
             }
-            .exh-variable{
-                .first-prgrf{
-                    font-family: 'Roboto', sans-serif;
+            h4{
+                color: white;
+                font-size: 35px;
+                margin-bottom: 15px;
+                text-indent: 40px;
+                font-weight: 700;
+            }
+            p{
+                color: white;
+                font-size: 18px;
+                text-indent: 40px;
+                margin-bottom: 25px;
+                font-weight: 300;
+            }
+        }
+        .footer-text{
+            text-align: center;
+            a{
+                p{
+                    color: aliceblue;
+                    text-decoration: none;
+                    font-size: 14px;
     
-                    color: white;
-                    font-size: 28px;
-                    line-height: 45px;
-                    word-wrap: break-word;
-                }
-                .logo-wrap{
-                    display: flex;
-                    justify-content: flex-start;
-                    img{
-                        width: 400px;
-                    }
+                    @include font-date;
                 }
             }
         }
     }
-}

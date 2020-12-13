@@ -77,12 +77,15 @@
 ///////////////////////////////////
 
 body{
+   @import "btn-back.scss";
    @import "aboutUs.scss";
    width: 100%;
    height: 100vh;
    background-image: url(../img/bg/mp_bg.png);
    background-size: cover;
    background-position: center;
+
+   background-attachment: fixed;
    .body-wrap{
       padding: 10px 10px 5px 10px;
       display: flex;

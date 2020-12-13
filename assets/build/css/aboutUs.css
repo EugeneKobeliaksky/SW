@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("/fonts/ProximaNova-Extrabld.eot");
+  src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'BankGothic Md BT';
+  src: url("/fonts/BankGothicBT-Medium.eot");
+  src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("/fonts/Jost-Bold.eot");
+  src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+/* font's */
+/* animation */
+/* @import "fonts.scss"; */
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("/fonts/ProximaNova-Extrabld.eot");
+  src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'BankGothic Md BT';
+  src: url("/fonts/BankGothicBT-Medium.eot");
+  src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("/fonts/Jost-Bold.eot");
+  src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+/* font's */
+/* animation */
+@font-face {
+  font-family: 'Proxima Nova Th';
+  src: url("/fonts/ProximaNova-Extrabld.eot");
+  src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'BankGothic Md BT';
+  src: url("/fonts/BankGothicBT-Medium.eot");
+  src: url("/fonts/BankGothicBT-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/BankGothicBT-Medium.woff2") format("woff2"), url("/fonts/BankGothicBT-Medium.woff") format("woff"), url("/fonts/BankGothicBT-Medium.ttf") format("truetype"), url("/fonts/BankGothicBT-Medium.svg#BankGothicBT-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Jost';
+  src: url("/fonts/Jost-Bold.eot");
+  src: url("/fonts/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Jost-Bold.woff2") format("woff2"), url("/fonts/Jost-Bold.woff") format("woff"), url("/fonts/Jost-Bold.ttf") format("truetype"), url("/fonts/Jost-Bold.svg#Jost-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+.back {
+  position: fixed;
+  left: 45px;
+  padding: 5px 5px;
+  margin-top: 50px;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  transition: .3s;
+  transition-delay: .1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  font-weight: 700;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-animation: robot 2s ease-in-out infinite;
+          animation: robot 2s ease-in-out infinite;
+  z-index: 10; }
+  .back img {
+    width: 25px; }
+  .back .text-wrap {
+    display: none;
+    margin-left: 15px;
+    transition: .3s;
+    transition-delay: .1s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease; }
+    .back .text-wrap p {
+      font-family: 'Jost';
+      color: #616161;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 15px; }
+
+@-webkit-keyframes robot {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes robot {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+.back:hover {
+  padding: 5px 15px 5px 5px;
+  -webkit-animation: none;
+          animation: none; }
+
+.back:hover .text-wrap {
+  display: block; }
+
+.content-wrapper {
+  padding: 25px;
+  margin: 0 auto;
+  max-width: 1400px;
+  position: relative; }
+  .content-wrapper h1 {
+    text-shadow: 0 0 13px #000000;
+    font-family: 'BankGothic Md BT';
+    font-size: 75px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #ffffff; }
+  .content-wrapper .descr-wrap {
+    margin-top: 75px;
+    font-family: 'Jura', sans-serif; }
+    .content-wrapper .descr-wrap .first-pargrf-wrapp {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      margin-bottom: 25px; }
+      .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp {
+        width: 1500px;
+        margin-right: 25px; }
+        .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp img {
+          width: 100%; }
+      .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+        color: white;
+        font-size: 28px;
+        line-height: 45px;
+        word-wrap: break-word;
+        font-weight: 500; }
+      .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+        -ms-flex-align: center;
+            align-items: center; }
+        .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a {
+          transition: .3s;
+          transition-delay: .1s;
+          -webkit-animation-timing-function: ease;
+                  animation-timing-function: ease; }
+          .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
+            width: 350px;
+            min-width: 250px; }
+        .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a:hover {
+          -webkit-transform: scale(1.1);
+                  transform: scale(1.1); }
+    .content-wrapper .descr-wrap h4 {
+      color: white;
+      font-size: 35px;
+      margin-bottom: 15px;
+      text-indent: 40px;
+      font-weight: 700; }
+    .content-wrapper .descr-wrap p {
+      color: white;
+      font-size: 18px;
+      text-indent: 40px;
+      margin-bottom: 25px;
+      font-weight: 300; }
+  .content-wrapper .footer-text {
+    text-align: center; }
+    .content-wrapper .footer-text a p {
+      color: aliceblue;
+      text-decoration: none;
+      font-size: 14px;
+      font-family: 'Jost'; }
+
+/*# sourceMappingURL=aboutUs.css.map */

@@ -158,7 +158,8 @@
       color: #616161;
       text-decoration: none;
       text-transform: uppercase;
-      font-weight: 700; }
+      font-weight: 700;
+      font-size: 15px; }
 
 @-webkit-keyframes robot {
   0% {
@@ -429,7 +430,8 @@ body {
         color: #616161;
         text-decoration: none;
         text-transform: uppercase;
-        font-weight: 700; }
+        font-weight: 700;
+        font-size: 15px; }
 
 @keyframes robot {
   0% {
@@ -561,7 +563,8 @@ body {
         color: #616161;
         text-decoration: none;
         text-transform: uppercase;
-        font-weight: 700; }
+        font-weight: 700;
+        font-size: 15px; }
 
 @keyframes robot {
   0% {
@@ -661,7 +664,8 @@ body {
       height: 115px; }
       body .body-wrap header .link-info-wrap {
         width: 400px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        margin-top: 25px; }
         body .body-wrap header .link-info-wrap a {
           width: 100%; }
           body .body-wrap header .link-info-wrap a .link-text {
@@ -681,8 +685,7 @@ body {
             -webkit-animation-timing-function: ease;
                     animation-timing-function: ease; }
           body .body-wrap header .link-info-wrap a .link-text:hover {
-            letter-spacing: 10px;
-            text-shadow: 0 0 50px #000000; }
+            color: #ffbc00; }
     body .body-wrap .content-wrap {
       margin-bottom: 15px; }
       body .body-wrap .content-wrap .exh-var-wrap {

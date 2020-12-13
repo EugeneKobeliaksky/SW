@@ -21,16 +21,16 @@ var path = {
         fonts: 'assets/build/fonts/'
     },
     src: {
-        html:  'assets/src/*.html',
-        js:    'assets/src/js/main.js',
-        style: 'assets/src/style/main.scss',
+        html:  'assets/src/**/*.html',
+        js:    'assets/src/js/**/*.js',
+        style: 'assets/src/style/**.*',
         img:   'assets/src/img/**/*.*',
         fonts: 'assets/src/fonts/**/*.*'
     },
     watch: {
         html:  'assets/src/**/*.html',
         js:    'assets/src/js/**/*.js',
-        css:   'assets/src/style/**/*.scss',
+        css:   'assets/src/style/**/*.*',
         img:   'assets/src/img/**/*.*',
         fonts: 'assets/srs/fonts/**/*.*'
     },

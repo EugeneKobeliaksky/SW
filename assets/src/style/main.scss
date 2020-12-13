@@ -97,6 +97,7 @@ body{
          .link-info-wrap{
             width: 400px;
             margin: 0 auto;
+            margin-top: 25px;
             a{
                width: 100%;
                .link-text{
@@ -115,8 +116,7 @@ body{
                   @include anim-set;
                }
                .link-text:hover{
-                  letter-spacing: 10px;
-                  text-shadow: 0 0 50px #000000;
+                  color: #ffbc00;
                }
             }
          }

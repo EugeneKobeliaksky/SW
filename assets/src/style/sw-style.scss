@@ -83,150 +83,109 @@ body{
       background-image: url('../img/sw_page/header_bg.png');
       background-size: cover;
       background-position: center;
-      .header_nav{
-         padding-top: 35px;
-         padding-left: 15px;
-         padding-right: 15px;
+      @import "header_nav.scss";
 
-         max-width: 1360px;
-         margin: 0 auto;
+      position: relative;
+      .info_date_wrapp{
+         width: 100%;
+         position: relative;
 
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         .logo_wrapp{
-            width: 350px;
-            a{
-               img{
-                  width: 100%;
-               }
+         margin-top: 70px;
+         .date_wrapp{
+            position: absolute;
+            padding: 10px 75px 10px 360px;
+            background: rgb(233,17,5);
+            background: 
+            linear-gradient(274deg, rgba(233,17,5,1) 0%, 
+                                    rgba(233,17,5,1) 63%, 
+                                    rgba(233,17,5,0) 100%,
+                                    rgba(233,17,5,1) 100%);
+            border-radius: 0 150px 150px 0;
+            .date_text{
+               font-size: 50px;
+               @include font-akzi;
+
+               color: #fff;
+            }
+            span{
+               font-size: 90px;
+               @include font-akzi;
+
+               color: #fff;
             }
          }
-         .navbar_wrapp{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            .contact-wrapp{
-               display: flex;
-               align-items: center;
+      }
+      .header_content_wrapp{
+         position: relative;
 
-               position: relative;
-
-               margin-right: 110px;
-               .contact-title{
-                  @include font-sw;
-                  font-size: 24px;
-                  font-weight: normal;
-                  letter-spacing: 2px;
-                  color: #797979;
-
-                  margin-right: 50px;
-               }
-               .dropmenu{
-                  display: none;
-                  position: absolute;
-                  top: 55px;
-                  left: 115px;
-                  @include dropdwn-bg;
-                  li{
-                     .ph_number{
-                        color: #fff;
-                        @include font-date;
-   
-                        margin-bottom: 15px;
-                     }
-                     .ph_number:last-child{
-                        margin-bottom: 0;
-                     }
-                  }
-               }
-               /* .dp:hover + .dropmenu{
-                  display: block;
-               } */
-               .icon{
-                  @include icon-style;
-
-                  @include anim-set;
-               }
-               .icon:hover{
-                  @include icon-style-hover;
+         margin-top: 250px;
+         margin-left: 360px;
+         z-index: 10;
+         .header_info_wrapp{
+            .location-wrapp{
+               h2{
+                  @include font-akzi;
+                  font-size: 75px;
+                  /* text-align: right; */
+                  color: #5b5b5b;
                }
             }
-            .dropdown-wrap{
-               position: relative;
-               .btn-wrapp{
-                  width: 70px;
-                  height: 70px;
-                  background: #e8e8e8;
+            .street-wrapp{
+               margin-left: 225px;
+               h3{
+                  @include font-akzi;
+                  font-size: 35px;
+                  color: #e91105;
+               }
+            }
+            .time-wrapp{
+               margin-top: 25px;
+               h4{
+                  @include font-date;
+                  font-size: 33px;
+                  color: #e91105;
+               }
+            }
+            .button-wrapp{
+               margin-top: 50px;
+               button{
+                  a{
+                     @include font-exo;
+                     font-size: 25px;
+                     font-weight: 800;
+                     font-style: italic;
+                     letter-spacing: 1.21px;
+                     color: #ffffff;
+                     text-transform: uppercase;
 
-                  border-bottom: 7px solid #d6d6d6;
-
-                  position: relative;
-
-                  @include anim-set;
-                  .btn{
-                     fill: #5b5b5b;
-                     width: 58px;
-
-                     position: absolute;
-
-                     top: -40px;
-                     left: 10px;
+                     background-color: #e91105;
+                     padding: 10px 40px 13px 40px;
+                     border-radius: 150px;
 
                      @include anim-set;
                   }
-                  .open{
-                     width: 60px;
-                     width: 50px;
-
-                     display: none;
-                  }
-                  .close{
-                     width: 80px;
-                     width: 50px;
-
-                     
-                  }
                }
-               .btn-wrapp:hover{
-                  background: #d5d5d5;
-               }
-               /* .btn-wrapp:hover .btn{
-                  fill: #ff0000;
-               } */
-               .dropdown-menu{
-                  @include dropdwn-bg;
-                  border-radius: 25px 0 0 25px;
-                  width: 150px;
-                  left: -120px;
-                  position: absolute;
-
-                  display: none;
-                  ul{
-                     list-style: none;
-                     text-align: right;
-                     li{
-                        
-                        a{
-                           text-decoration: none;
-                           color: #fff;
-                           @include font-date;
-
-                           margin-bottom: 15px;
-
-                           @include anim-set;
-                        }
-                        a:hover{
-                           color: #ffec20;
-                        }
-                        .null{
-                           opacity: 0;
-                        }
-                     }
-                  }
+               button:hover a{
+                  background-color: #3d5ed9;
                }
             }
+         }
+
+      }
+      .header_img_wrapp{
+         overflow: hidden;
+
+         position: absolute;
+
+         bottom: -5px;
+         right: 255px;
+         z-index: 1;
+         img{
+            width: 900px;
+            margin-top: 15px;
          }
       }
    }
 }
+
+@import "media-sw.scss";

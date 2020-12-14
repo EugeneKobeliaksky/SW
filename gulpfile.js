@@ -23,14 +23,14 @@ var path = {
     src: {
         html:  'assets/src/**/*.html',
         js:    'assets/src/js/**/*.js',
-        style: 'assets/src/style/**.scss',/* Сделать обход для одновременного просмотра .scss и .css  */
+        style: 'assets/src/style/**.*',/* Сделать обход для одновременного просмотра .scss и .css  */
         img:   'assets/src/img/**/*.*',
         fonts: 'assets/src/fonts/**/*.*'
     },
     watch: {
         html:  'assets/src/**/*.html',
         js:    'assets/src/js/**/*.js',
-        css:   'assets/src/style/**/*.*',
+        css:   'assets/src/style/**/*.scss',
         img:   'assets/src/img/**/*.*',
         fonts: 'assets/srs/fonts/**/*.*'
     },
@@ -52,7 +52,7 @@ var gulp = require('gulp'),  // подключаем Gulp
     sourcemaps = require('gulp-sourcemaps'), // модуль для генерации карты исходных файлов
     sass = require('gulp-sass'), // модуль для компиляции SASS (SCSS) в CSS
     autoprefixer = require('gulp-autoprefixer'), // модуль для автоматической установки автопрефиксов
-    /* cleanCSS = require('gulp-clean-css'), */ // плагин для минимизации CSS
+    cleanCSS = require('gulp-clean-css'), // плагин для минимизации CSS
     uglify = require('gulp-uglify'), // модуль для минимизации JavaScript
     cache = require('gulp-cache'), // модуль для кэширования
     imagemin = require('gulp-imagemin'), // плагин для сжатия PNG, JPEG, GIF и SVG изображений

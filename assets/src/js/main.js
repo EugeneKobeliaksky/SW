@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#btn-down").click(function(event){
-        $("#phone-bar").css("display", "block");
+        $("#phone-bar").css("display", "block").animate("slow");
         $(".dp").css("fill","#ff0000");
         event.stopImmediatePropagation();
         return false;
@@ -14,7 +14,7 @@ $(document).ready(function(){
     $("#btn-op").click(function(event){
         $(".close").css("display","none");
         $(".open").css("display","block");
-        $(".dropdown-menu").css("display", "block");
+        $(".dropdown-menu").css("display", "block").animate("slow");
         event.stopImmediatePropagation();
         return false;
     });
@@ -25,4 +25,12 @@ $(document).ready(function(){
         event.stopImmediatePropagation();
         return false;
     });
+    var audio = $("#mySoundClip")[0];
+
+    $("#dartVaider").mouseenter(function() {
+        audio.play();
+        event.stopImmediatePropagation();
+        return false;
+    });
+
 });

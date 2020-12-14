@@ -1,0 +1,148 @@
+/* @import "variables.scss";
+@import "fonts.scss"; */
+/* font's */
+/* animation */
+/* icon */
+/* geometry */
+.header_nav {
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1360px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center; }
+  .header_nav .logo_wrapp {
+    width: 350px; }
+    .header_nav .logo_wrapp a img {
+      width: 100%; }
+  .header_nav .navbar_wrapp {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center; }
+    .header_nav .navbar_wrapp .contact-wrapp {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      position: relative;
+      margin-right: 110px;
+      /* .dp:hover + .dropmenu{
+             display: block;
+          } */ }
+      .header_nav .navbar_wrapp .contact-wrapp .contact-title {
+        font-family: 'Star Jedi';
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: 2px;
+        color: #797979;
+        margin-right: 50px; }
+      .header_nav .navbar_wrapp .contact-wrapp .dropmenu {
+        display: none;
+        position: absolute;
+        top: 55px;
+        left: 115px;
+        list-style: none;
+        border-radius: 15px 0 0 0;
+        border-bottom: 10px solid #ff0000;
+        padding: 15px 15px 15px 25px;
+        background-color: #1f1f28;
+        transition: .2s;
+        transition-delay: .1s;
+        -webkit-animation-timing-function: ease;
+                animation-timing-function: ease; }
+        .header_nav .navbar_wrapp .contact-wrapp .dropmenu li .ph_number {
+          color: #fff;
+          font-family: 'Jost';
+          margin-bottom: 15px; }
+        .header_nav .navbar_wrapp .contact-wrapp .dropmenu li .ph_number:last-child {
+          margin-bottom: 0; }
+      .header_nav .navbar_wrapp .contact-wrapp .icon {
+        width: 54px;
+        height: 54px;
+        fill: #5b5b5b;
+        transition: .2s;
+        transition-delay: .1s;
+        -webkit-animation-timing-function: ease;
+                animation-timing-function: ease; }
+      .header_nav .navbar_wrapp .contact-wrapp .icon:hover {
+        fill: #ff0000; }
+    .header_nav .navbar_wrapp .dropdown-wrap {
+      position: relative;
+      /* .btn-wrapp:hover .btn{
+             fill: #ff0000;
+          } */ }
+      .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp {
+        width: 70px;
+        height: 70px;
+        background: #e8e8e8;
+        position: relative;
+        transition: .2s;
+        transition-delay: .1s;
+        -webkit-animation-timing-function: ease;
+                animation-timing-function: ease; }
+        .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp .btn {
+          fill: #5b5b5b;
+          width: 58px;
+          position: absolute;
+          top: -40px;
+          left: 10px;
+          transition: .2s;
+          transition-delay: .1s;
+          -webkit-animation-timing-function: ease;
+                  animation-timing-function: ease; }
+        .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp .open {
+          width: 60px;
+          width: 50px;
+          display: none; }
+        .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp .close {
+          width: 80px;
+          width: 50px; }
+      .header_nav .navbar_wrapp .dropdown-wrap .btn-wrapp:hover {
+        background: #d5d5d5; }
+      .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu {
+        list-style: none;
+        border-radius: 15px 0 0 0;
+        border-bottom: 10px solid #ff0000;
+        padding: 15px 15px 15px 25px;
+        background-color: #1f1f28;
+        transition: .2s;
+        transition-delay: .1s;
+        -webkit-animation-timing-function: ease;
+                animation-timing-function: ease;
+        border-radius: 25px 0 0 25px;
+        width: 150px;
+        left: -120px;
+        position: absolute;
+        display: none;
+        z-index: 25;
+        transition: .2s;
+        transition-delay: .1s;
+        animation-timing-function: ease; }
+        .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu ul {
+          list-style: none;
+          text-align: right; }
+          .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-family: 'Jost';
+            margin-bottom: 15px;
+            transition: .2s;
+            transition-delay: .1s;
+            -webkit-animation-timing-function: ease;
+                    animation-timing-function: ease; }
+          .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu ul li a:hover {
+            color: #ffec20; }
+          .header_nav .navbar_wrapp .dropdown-wrap .dropdown-menu ul li .null {
+            opacity: 0; }
+
+/*# sourceMappingURL=header_nav.css.map */

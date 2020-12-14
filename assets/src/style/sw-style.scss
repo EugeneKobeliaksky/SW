@@ -64,7 +64,7 @@ a{
    height:0px
 }
 ::-webkit-scrollbar{
-   width: 10px;
+   width: 4px;
 }
 
 .workspace-width{
@@ -177,12 +177,108 @@ body{
 
          position: absolute;
 
-         bottom: -5px;
-         right: 255px;
+         bottom: -4px;
+         right: 240px;
          z-index: 1;
          img{
             width: 900px;
             margin-top: 15px;
+         }
+      }
+   }
+   .about-exh{
+      width: 100%;
+      height: 100vh;
+      background-image: url('../img/sw_page/about-axh_bg.png');
+      background-size: cover;
+      background-position: top right;
+
+      position: relative;
+      .shadow-block{
+         position: absolute;
+         top: 0;
+         opacity: .3;
+         img{
+            width: 100%
+         }
+      }
+      .text-wrapp{
+         padding-top: 100px;
+         padding-right: 15px;
+         max-width: 1400px;
+         margin: 0 auto;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+         .title{
+            text-align: right;
+            h2{
+               text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9);
+               @include font-sw;
+               font-size: 85px;
+               letter-spacing: 4.91px;
+               color: #e90c00;
+            }
+            h3{
+               text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9);
+               @include font-sw;
+               font-size: 65px;
+               letter-spacing: 4.91px;
+               color: #e90c00;
+            }
+         }
+         .text{
+            margin-top: 60px;
+            p{
+               width: 800px;
+               @include font-sw;
+               font-size: 21px;
+               line-height: 1.67;
+               letter-spacing: 1.58px;
+               text-align: justify;
+               color: #5b5b5b;
+            }
+         }
+      }
+      .more-btn-wrapp{
+         max-width: 1400px;
+         margin: 0 auto;
+         margin-top: 130px;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-end;
+
+         position: relative;
+         .more{
+            position: absolute;
+            a{
+               @include font-exo;
+               font-size: 29.5px;
+               font-weight: bold;
+               font-stretch: normal;
+               font-style: italic;
+               letter-spacing: normal;
+               color: #ffffff;
+               padding: 15px 350px 20px 40px;
+
+               background: rgb(233,17,5);
+               background: 
+               linear-gradient(90deg, rgba(233,17,5,1) 0%, 
+                                       rgba(233,17,5,1) 20%, 
+                                       rgba(233,17,5,0) 100%,
+                                       rgba(233,17,5,1) 100%);
+               border-radius: 150px 0 0 150px;
+
+               @include anim-set;
+            }
+            a:hover{
+               padding-right: 500px;
+               background: 
+               linear-gradient(90deg, rgba(233,17,5,1) 0%, 
+                                       rgba(233,17,5,1) 20%, 
+                                       rgba(233,17,5,0) 100%,
+                                       rgba(233,17,5,1) 100%);
+            }
          }
       }
    }

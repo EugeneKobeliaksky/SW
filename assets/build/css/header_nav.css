@@ -59,7 +59,8 @@
         transition: .2s;
         transition-delay: .1s;
         -webkit-animation-timing-function: ease;
-                animation-timing-function: ease; }
+                animation-timing-function: ease;
+        z-index: 50; }
         .header_nav .navbar_wrapp .contact-wrapp .dropmenu li .ph_number {
           color: #fff;
           font-family: 'Jost';

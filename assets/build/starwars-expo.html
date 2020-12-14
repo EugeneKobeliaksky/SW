@@ -23,8 +23,9 @@
 	<script type="text/javascript" src="js/sw_scripts/fullpage.js"></script>
 </head>
 
-<body id="fullpage">
-	<!-- //= template/btn-back.html -->
+<body>
+	<section id="fullpage">
+		<!-- //= template/btn-back.html -->
 	<header class="header_wrapp section">
 		<div class="header_nav">
 		    <div class="logo_wrapp">
@@ -97,20 +98,48 @@
 					<h4>з 10:00 по 20:00 годину</h4>
 				</div>
 				<div class="button-wrapp">
-					<button><a href="poster-sw.html">афіша виставки</a></button>
+					<button><a href="poster-sw.html" id="lazer-sound">афіша виставки</a></button>
 				</div>
 			</div>
 		</div>
-		<div class="header_img_wrapp">
+		<!-- <div class="header_img_wrapp">
 			<img src="img/sw_page/dv.png" alt="Dart Vaider" id="dartVaider">
-			<audio id="mySoundClip">
-						<source src="img/sw_page/sound_01.mp3"  volume="-500"></source>
+			<audio id="voice_dv">
+				<source src="img/sw_page/sound_01.mp3"  volume="-500"></source>
 			</audio>
-		</div>
+		</div> -->
 	</header>
+	<section class="about-exh section active">
+		<div class="shadow-block">
+			<img src="img/sw_page/shadow.png" alt="">
+		</div>
+		<div class="text-wrapp">
+			<div class="title">
+				<h2>Про виставку</h2>
+				<h3>“Зоряні війни”</h3>
+			</div>
+			<div class="text">
+				<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices 
+					gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem 
+					ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+					incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. 
+					Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+			</div>
+		</div>
+		<div class="more-btn-wrapp">
+			<button class="more">
+				<a href="starwars_hero.html">Дізнатися більше...</a>
+			</button>
+		</div>
+	</section>
+	</section>
 	<script>
 		new fullpage('#fullpage', {
 			//options here
+			scrollingSpeed: 1500,
+			scrollBar: true,
+			easing: 'easeInOutCubic',
 			autoScrolling: true,
 			scrollHorizontally: true
 		});

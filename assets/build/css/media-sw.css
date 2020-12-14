@@ -40,7 +40,18 @@
       body .header_wrapp .info_date_wrapp .date_wrapp .date_text {
         font-size: 50px; }
       body .header_wrapp .info_date_wrapp .date_wrapp span {
-        font-size: 90px; } }
+        font-size: 90px; }
+  body .about-exh {
+    background-position: top left; }
+    body .about-exh .more-btn-wrapp {
+      margin-top: 130px;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+      body .about-exh .more-btn-wrapp .more a {
+        font-size: 29.5px;
+        padding: 15px 350px 20px 40px; } }
 
 @media only screen and (max-width: 1100px) {
   body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp .contact-title {
@@ -90,7 +101,34 @@
       body .header_wrapp .info_date_wrapp .date_wrapp .date_text {
         font-size: 25px; }
       body .header_wrapp .info_date_wrapp .date_wrapp span {
-        font-size: 50px; } }
+        font-size: 50px; }
+  body .about-exh {
+    background-position: top right; }
+    body .about-exh .text-wrapp {
+      padding-top: 45px;
+      padding-right: 0;
+      -ms-flex-align: center;
+          align-items: center; }
+      body .about-exh .text-wrapp .title {
+        text-align: center; }
+        body .about-exh .text-wrapp .title h2 {
+          font-size: 65px; }
+        body .about-exh .text-wrapp .title h3 {
+          font-size: 45px; }
+      body .about-exh .text-wrapp .text {
+        margin-top: 60px; }
+        body .about-exh .text-wrapp .text p {
+          width: 600px;
+          text-align: left; }
+    body .about-exh .more-btn-wrapp {
+      margin-top: 130px;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+      body .about-exh .more-btn-wrapp .more a {
+        font-size: 29.5px;
+        padding: 15px 350px 20px 40px; } }
 
 @media only screen and (max-width: 420px) {
   body .header_wrapp .header_nav .logo_wrapp {
@@ -151,6 +189,39 @@
     z-index: 1; }
     body .header_wrapp .header_img_wrapp img {
       width: 650px;
-      margin-top: 15px; } }
+      margin-top: 15px; }
+  body .about-exh {
+    background-position: top right; }
+    body .about-exh .text-wrapp {
+      padding-top: 45px;
+      padding-right: 0;
+      -ms-flex-align: center;
+          align-items: center; }
+      body .about-exh .text-wrapp .title {
+        text-align: center; }
+        body .about-exh .text-wrapp .title h2 {
+          font-size: 30px;
+          text-shadow: 2px 2px 0 rgba(28, 2, 2, 0.9); }
+        body .about-exh .text-wrapp .title h3 {
+          font-size: 25px;
+          text-shadow: 2px 2px 0 rgba(28, 2, 2, 0.9); }
+      body .about-exh .text-wrapp .text {
+        margin-top: 60px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: justify; }
+        body .about-exh .text-wrapp .text p {
+          font-size: 15px;
+          width: 100%; }
+    body .about-exh .more-btn-wrapp {
+      margin-top: 85px;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+      body .about-exh .more-btn-wrapp .more a {
+        font-size: 18px;
+        padding: 15px 40px 20px 40px;
+        background: #e91105; } }
 
 /*# sourceMappingURL=media-sw.css.map */

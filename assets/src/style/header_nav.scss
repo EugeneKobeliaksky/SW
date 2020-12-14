@@ -45,6 +45,8 @@
              top: 55px;
              left: 115px;
              @include dropdwn-bg;
+
+             z-index: 50;
              li{
                 .ph_number{
                    color: #fff;

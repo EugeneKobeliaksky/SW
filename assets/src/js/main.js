@@ -25,7 +25,7 @@ $(document).ready(function(){
         event.stopImmediatePropagation();
         return false;
     });
-    var audio = $("#mySoundClip")[0];
+    var audio = $("#voice_dv")[0];
 
     $("#dartVaider").mouseenter(function() {
         audio.play();

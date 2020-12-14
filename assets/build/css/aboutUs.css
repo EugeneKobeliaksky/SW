@@ -183,7 +183,8 @@
       font-size: 18px;
       text-indent: 40px;
       margin-bottom: 25px;
-      font-weight: 300; }
+      font-weight: 300;
+      text-align: justify; }
   .content-wrapper .footer-text {
     text-align: center; }
     .content-wrapper .footer-text a p {

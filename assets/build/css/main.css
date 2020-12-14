@@ -237,7 +237,8 @@
       font-size: 18px;
       text-indent: 40px;
       margin-bottom: 25px;
-      font-weight: 300; }
+      font-weight: 300;
+      text-align: justify; }
   .content-wrapper .footer-text {
     text-align: center; }
     .content-wrapper .footer-text a p {
@@ -609,7 +610,8 @@ body {
         font-size: 18px;
         text-indent: 40px;
         margin-bottom: 25px;
-        font-weight: 300; }
+        font-weight: 300;
+        text-align: justify; }
     body .content-wrapper .footer-text {
       text-align: center; }
       body .content-wrapper .footer-text a p {
@@ -622,8 +624,10 @@ body {
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+    -ms-flex-align: center;
+        align-items: center;
     height: 100vh; }
     body .body-wrap header {
       height: 115px; }
@@ -652,7 +656,7 @@ body {
           body .body-wrap header .link-info-wrap a .link-text:hover {
             color: #ffbc00; }
     body .body-wrap .content-wrap {
-      margin-bottom: 15px; }
+      margin-bottom: 50px; }
       body .body-wrap .content-wrap .exh-var-wrap {
         display: -ms-flexbox;
         display: flex;
@@ -781,7 +785,13 @@ body {
                   filter: blur(0px);
           opacity: 1; }
     body .body-wrap .footer-text {
-      margin: 0 auto; }
+      margin: 0 auto;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center; }
       body .body-wrap .footer-text a p {
         color: aliceblue;
         text-decoration: none;
@@ -798,7 +808,8 @@ body {
       -ms-flex-align: center;
           align-items: center; }
       body .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp {
-        width: 50%;
+        width: 30%;
+        margin: 0;
         margin-bottom: 50px; }
       body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable {
         display: -ms-flexbox;
@@ -806,20 +817,26 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center; }
+        body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+          width: 80%;
+          text-align: justify; }
+        body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
+          -ms-flex-direction: column;
+              flex-direction: column; } }
 
 @media only screen and (max-width: 900px) {
   body {
     background-image: url(../img/bg/mp_bg-mobile.png);
     background-position: top; }
     body .body-wrap {
-      margin-top: 400px; }
+      /* margin-top: 400px; */ }
       body .body-wrap header {
         margin-bottom: 75px; }
         body .body-wrap header .link-info-wrap {
           width: 100%; }
           body .body-wrap header .link-info-wrap a .link-text {
-            font-size: 60px;
+            font-size: 45px;
             margin: 0 auto; }
           body .body-wrap header .link-info-wrap a .link-text:hover {
             letter-spacing: 5; }
@@ -849,7 +866,8 @@ body {
         body .body-wrap .content-wrap .exh-var-wrap .plate-exh:nth-child(2) {
           margin-left: 0; }
     body .footer-text {
-      padding-bottom: 25px; } }
+      padding-bottom: 25px;
+      margin: 0 auto; } }
 
 @media only screen and (max-width: 700px) {
   body .content-wrapper {
@@ -871,14 +889,15 @@ body {
       body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
         width: 200px; } }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 375px) {
   body .body-wrap {
-    margin-top: 400px; }
+    /* margin-top: 400px; */ }
     body .body-wrap header {
       margin: 0 auto;
       margin-bottom: 75px; }
       body .body-wrap header .link-info-wrap a .link-text {
-        font-size: 40px;
+        font-size: 25px;
+        line-height: 5px;
         text-align: center; }
   body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
     font-size: 17px; }

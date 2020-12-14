@@ -128,7 +128,17 @@
           align-items: flex-end; }
       body .about-exh .more-btn-wrapp .more a {
         font-size: 29.5px;
-        padding: 15px 350px 20px 40px; } }
+        padding: 15px 350px 20px 40px; }
+  body .media_wrapp .media_container .video-wrapp {
+    width: 650px;
+    height: 300px;
+    margin-top: 30px; }
+  body .media_wrapp .media_container .gallery-wrapp {
+    width: 90%; }
+    body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item {
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+      max-width: 100%; } }
 
 @media only screen and (max-width: 420px) {
   body .header_wrapp .header_nav .logo_wrapp {
@@ -206,7 +216,7 @@
           font-size: 25px;
           text-shadow: 2px 2px 0 rgba(28, 2, 2, 0.9); }
       body .about-exh .text-wrapp .text {
-        margin-top: 60px;
+        margin-top: 40px;
         padding-left: 15px;
         padding-right: 15px;
         text-align: justify; }
@@ -214,7 +224,7 @@
           font-size: 15px;
           width: 100%; }
     body .about-exh .more-btn-wrapp {
-      margin-top: 85px;
+      margin-top: 45px;
       -ms-flex-direction: column;
           flex-direction: column;
       -ms-flex-align: end;
@@ -222,6 +232,18 @@
       body .about-exh .more-btn-wrapp .more a {
         font-size: 18px;
         padding: 15px 40px 20px 40px;
-        background: #e91105; } }
+        background: #e91105; }
+  body .media_wrapp .media_container .video-wrapp {
+    width: 330px;
+    height: 300px;
+    margin-top: 30px; }
+  body .media_wrapp .media_container .gallery-wrapp {
+    width: 330px;
+    height: 300px; }
+    body .media_wrapp .media_container .gallery-wrapp .slider {
+      height: 100%; }
+      body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item {
+        /* flex: 0 0 100%;
+                            max-width: 100%; */ } }
 
 /*# sourceMappingURL=media-sw.css.map */

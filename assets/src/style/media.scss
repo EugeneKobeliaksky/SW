@@ -9,13 +9,21 @@
                     flex-direction: column;
                     align-items: center;
                     .photo-wrapp{
-                        width: 50%;
+                        width: 30%;
+                        margin: 0;
                         margin-bottom: 50px;
                     }
                     .exh-variable{
                         display: flex;
                         flex-direction: column;
                         align-items: center;
+                        .first-prgrf{
+                            width: 80%;
+                            text-align: justify;
+                        }
+                        .logo-wrap{
+                            flex-direction: column;
+                        }
                     }
                 }
             }
@@ -27,14 +35,14 @@
         background-image: url(../img/bg/mp_bg-mobile.png);
         background-position: top;
         .body-wrap{
-            margin-top: 400px;
+            /* margin-top: 400px; */
             header{
                 margin-bottom: 75px;
                 .link-info-wrap{
                     width: 100%;
                     a{
                         .link-text{
-                            font-size: 60px;
+                            font-size: 45px;
                             margin: 0 auto;
                         }
                         .link-text:hover{
@@ -85,6 +93,7 @@
         }
         .footer-text{
             padding-bottom: 25px;
+            margin: 0 auto;
         }
     }
 }
@@ -121,17 +130,18 @@
         }
     }
 }
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 375px){
     body{
         .body-wrap{
-            margin-top: 400px;
+            /* margin-top: 400px; */
             header{
                 margin: 0 auto;
                 margin-bottom: 75px;
                 .link-info-wrap{
                     a{
                         .link-text{
-                            font-size: 40px;
+                            font-size: 25px;
+                            line-height: 5px;
                             text-align: center;
                         }
                     }

@@ -89,7 +89,7 @@ a {
 ::-webkit-scrollbar-button {
   background-image: url("");
   background-repeat: no-repeat;
-  width: 5px;
+  width: 4px;
   height: 0px; }
 
 ::-webkit-scrollbar-track {
@@ -471,7 +471,7 @@ body {
     height: 100vh;
     background-image: url("../img/sw_page/about-axh_bg.png");
     background-size: cover;
-    background-position: top right;
+    background-position: bottom right;
     position: relative; }
     body .about-exh .shadow-block {
       position: absolute;
@@ -546,6 +546,126 @@ body {
         body .about-exh .more-btn-wrapp .more a:hover {
           padding-right: 500px;
           background: linear-gradient(90deg, #e91105 0%, #e91105 20%, rgba(233, 17, 5, 0) 100%, #e91105 100%); }
+  body .media_wrapp {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center; }
+    body .media_wrapp .media_container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      margin-top: 25px; }
+      body .media_wrapp .media_container h2 {
+        text-shadow: 3px 3px 0 rgba(28, 2, 2, 0.9);
+        font-family: 'Star Jedi';
+        font-size: 25px;
+        letter-spacing: 4.91px;
+        color: #e90c00; }
+      body .media_wrapp .media_container .video-wrapp {
+        width: 900px;
+        height: 600px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 65px;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.22); }
+        body .media_wrapp .media_container .video-wrapp .video_block {
+          background-color: #d7190f;
+          width: 100%;
+          height: 100%;
+          margin: 0 auto;
+          position: relative; }
+          body .media_wrapp .media_container .video-wrapp .video_block iframe {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0; }
+      body .media_wrapp .media_container .gallery-wrapp {
+        width: 100%; }
+        body .media_wrapp .media_container .gallery-wrapp .slider {
+          position: relative;
+          overflow: hidden; }
+          body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper {
+            display: -ms-flexbox;
+            display: flex;
+            transition: -webkit-transform 0.6s ease;
+            transition: transform 0.6s ease;
+            transition: transform 0.6s ease, -webkit-transform 0.6s ease; }
+            body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item {
+              -ms-flex: 0 0 50%;
+                  flex: 0 0 50%;
+              max-width: 50%;
+              overflow: hidden; }
+              body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item div {
+                line-height: 250px;
+                font-size: 100px;
+                text-align: center;
+                height: 250px;
+                background: orange;
+                display: -ms-flexbox;
+                display: flex;
+                /* align-items: t; */
+                margin: 0 20px; }
+                body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item div img {
+                  width: 100%;
+                  transition: .2s;
+                  transition-delay: .1s;
+                  -webkit-animation-timing-function: ease;
+                          animation-timing-function: ease; }
+              body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item div:hover img {
+                -webkit-transform: scale(1.1);
+                        transform: scale(1.1); }
+        body .media_wrapp .media_container .gallery-wrapp .slider__control {
+          position: absolute;
+          top: 50%;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+          width: 40px;
+          height: 40px;
+          color: #fff;
+          text-align: center;
+          opacity: 0.8;
+          -webkit-transform: translateY(-50%);
+                  transform: translateY(-50%);
+          background: #d7190f;
+          border-radius: 50px; }
+        body .media_wrapp .media_container .gallery-wrapp .slider__control:hover,
+        body .media_wrapp .media_container .gallery-wrapp .slider__control:focus {
+          color: #fff;
+          text-decoration: none;
+          outline: 0;
+          opacity: .9; }
+        body .media_wrapp .media_container .gallery-wrapp .slider__control_left {
+          left: 0; }
+        body .media_wrapp .media_container .gallery-wrapp .slider__control_right {
+          right: 0; }
+        body .media_wrapp .media_container .gallery-wrapp .slider__control::before {
+          content: '';
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background: transparent no-repeat center center;
+          background-size: 100% 100%; }
+        body .media_wrapp .media_container .gallery-wrapp .slider__control_left::before {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg'\a                 fill='%23fff' viewBox='0 0 8 \a                 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
+        body .media_wrapp .media_container .gallery-wrapp .slider__control_right::before {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg'\a                 fill='%23fff' viewBox='0 0 8 \a                 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
 /* @import "variables.scss";
 @import "fonts.scss"; */
@@ -677,7 +797,17 @@ body {
           align-items: flex-end; }
       body .about-exh .more-btn-wrapp .more a {
         font-size: 29.5px;
-        padding: 15px 350px 20px 40px; } }
+        padding: 15px 350px 20px 40px; }
+  body .media_wrapp .media_container .video-wrapp {
+    width: 650px;
+    height: 300px;
+    margin-top: 30px; }
+  body .media_wrapp .media_container .gallery-wrapp {
+    width: 90%; }
+    body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item {
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+      max-width: 100%; } }
 
 @media only screen and (max-width: 420px) {
   body .header_wrapp .header_nav .logo_wrapp {
@@ -755,7 +885,7 @@ body {
           font-size: 25px;
           text-shadow: 2px 2px 0 rgba(28, 2, 2, 0.9); }
       body .about-exh .text-wrapp .text {
-        margin-top: 60px;
+        margin-top: 40px;
         padding-left: 15px;
         padding-right: 15px;
         text-align: justify; }
@@ -763,7 +893,7 @@ body {
           font-size: 15px;
           width: 100%; }
     body .about-exh .more-btn-wrapp {
-      margin-top: 85px;
+      margin-top: 45px;
       -ms-flex-direction: column;
           flex-direction: column;
       -ms-flex-align: end;
@@ -771,6 +901,18 @@ body {
       body .about-exh .more-btn-wrapp .more a {
         font-size: 18px;
         padding: 15px 40px 20px 40px;
-        background: #e91105; } }
+        background: #e91105; }
+  body .media_wrapp .media_container .video-wrapp {
+    width: 330px;
+    height: 300px;
+    margin-top: 30px; }
+  body .media_wrapp .media_container .gallery-wrapp {
+    width: 330px;
+    height: 300px; }
+    body .media_wrapp .media_container .gallery-wrapp .slider {
+      height: 100%; }
+      body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item {
+        /* flex: 0 0 100%;
+                            max-width: 100%; */ } }
 
 /*# sourceMappingURL=sw-style.css.map */

@@ -31,5 +31,8 @@
     "url": ""
   },
   "homepage": "",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "lightgallery": "^1.10.0"
+  }
 }

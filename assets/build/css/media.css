@@ -8,7 +8,8 @@
       -ms-flex-align: center;
           align-items: center; }
       body .content-wrapper .descr-wrap .first-pargrf-wrapp .photo-wrapp {
-        width: 50%;
+        width: 30%;
+        margin: 0;
         margin-bottom: 50px; }
       body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable {
         display: -ms-flexbox;
@@ -16,20 +17,26 @@
         -ms-flex-direction: column;
             flex-direction: column;
         -ms-flex-align: center;
-            align-items: center; } }
+            align-items: center; }
+        body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
+          width: 80%;
+          text-align: justify; }
+        body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap {
+          -ms-flex-direction: column;
+              flex-direction: column; } }
 
 @media only screen and (max-width: 900px) {
   body {
     background-image: url(../img/bg/mp_bg-mobile.png);
     background-position: top; }
     body .body-wrap {
-      margin-top: 400px; }
+      /* margin-top: 400px; */ }
       body .body-wrap header {
         margin-bottom: 75px; }
         body .body-wrap header .link-info-wrap {
           width: 100%; }
           body .body-wrap header .link-info-wrap a .link-text {
-            font-size: 60px;
+            font-size: 45px;
             margin: 0 auto; }
           body .body-wrap header .link-info-wrap a .link-text:hover {
             letter-spacing: 5; }
@@ -59,7 +66,8 @@
         body .body-wrap .content-wrap .exh-var-wrap .plate-exh:nth-child(2) {
           margin-left: 0; }
     body .footer-text {
-      padding-bottom: 25px; } }
+      padding-bottom: 25px;
+      margin: 0 auto; } }
 
 @media only screen and (max-width: 700px) {
   body .content-wrapper {
@@ -81,14 +89,15 @@
       body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .logo-wrap a img {
         width: 200px; } }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 375px) {
   body .body-wrap {
-    margin-top: 400px; }
+    /* margin-top: 400px; */ }
     body .body-wrap header {
       margin: 0 auto;
       margin-bottom: 75px; }
       body .body-wrap header .link-info-wrap a .link-text {
-        font-size: 40px;
+        font-size: 25px;
+        line-height: 5px;
         text-align: center; }
   body .content-wrapper .descr-wrap .first-pargrf-wrapp .exh-variable .first-prgrf {
     font-size: 17px; }

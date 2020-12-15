@@ -30,6 +30,17 @@
 }
 @media only screen and (max-width: 1300px){
     body{
+        .poster-wrapp{
+            .header_nav{
+                .navbar_wrapp{
+                .contact-wrapp{
+                        .contact-title{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
         .header_wrapp{
             .header_content_wrapp{
                 margin-left: 75px;
@@ -88,6 +99,17 @@
 
 @media only screen and (max-width: 1100px){
     body{
+        .poster-wrapp{
+            .header_nav{
+                .navbar_wrapp{
+                .contact-wrapp{
+                        .contact-title{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
         .header_wrapp{
            .header_nav{
                 .navbar_wrapp{
@@ -486,6 +508,19 @@
 }
 @media only screen and (max-width: 420px){
     body{
+        .poster-wrapp{
+            height: 100vh;
+            .header_nav{
+                .logo_wrapp{
+                    margin-right: 35px;
+                }
+                .navbar_wrapp{
+                .contact-wrapp{
+                    display: none;
+                    }
+                }
+            }
+        }
         .header_wrapp{
            .header_nav{
                 .logo_wrapp{

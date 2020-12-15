@@ -32,5 +32,18 @@ $(document).ready(function(){
         event.stopImmediatePropagation();
         return false;
     });
-
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 0) {
+            $('.top').fadeIn();
+        } else {
+            $('.top').fadeOut();
+        }
+    });
+    /* Кнопка возврата в начало */
+    $('#top').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
 });

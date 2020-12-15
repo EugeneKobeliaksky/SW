@@ -4,14 +4,18 @@
 /* animation */
 /* icon */
 /* geometry */
-@font-face {
-  font-family: 'Proxima Nova Th';
-  src: url("/fonts/ProximaNova-Extrabld.eot");
-  src: url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"), url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"), url("/fonts/ProximaNova-Extrabld.woff") format("woff"), url("/fonts/ProximaNova-Extrabld.ttf") format("truetype"), url("/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld") format("svg");
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap; }
-
+/* @font-face {
+    font-family: 'Proxima Nova Th';
+    src: url('/fonts/ProximaNova-Extrabld.eot');
+    src: url('/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/ProximaNova-Extrabld.woff2') format('woff2'),
+        url('/fonts/ProximaNova-Extrabld.woff') format('woff'),
+        url('/fonts/ProximaNova-Extrabld.ttf') format('truetype'),
+        url('/fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+} */
 @font-face {
   font-family: 'BankGothic Md BT';
   src: url("/fonts/BankGothicBT-Medium.eot");
@@ -54,9 +58,10 @@
 
 .back {
   position: fixed;
-  left: 45px;
+  left: 15px;
+  bottom: 15px;
   padding: 5px 5px;
-  margin-top: 50px;
+  margin-top: 5px;
   background-color: #e6e6e6;
   border-radius: 15px;
   transition: .2s;

@@ -71,8 +71,85 @@
     right: -100px;
     z-index: 1; }
     body .header_wrapp .header_img_wrapp img {
-      width: 900px;
-      margin-top: 15px; } }
+      width: 1100px;
+      margin-top: 15px; }
+  body .price .price-wrapp .price-content {
+    margin-top: 75px; }
+    body .price .price-wrapp .price-content .img-wrapp {
+      width: 650px;
+      margin-top: 0;
+      position: relative; }
+      body .price .price-wrapp .price-content .img-wrapp img {
+        position: absolute;
+        top: -350px;
+        width: 550px; }
+    body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp {
+      -ms-flex-direction: column;
+          flex-direction: column;
+      -ms-flex-align: center;
+          align-items: center;
+      margin-top: 100px; }
+      body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item {
+        border-left: 15px solid #e91105;
+        margin-bottom: 20px;
+        padding-left: 50px; }
+  body .contact {
+    background-position: top center; }
+    body .contact .contact-wrapp {
+      padding-top: 70px; }
+      body .contact .contact-wrapp .title-wrapp {
+        margin: 0 auto;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+        body .contact .contact-wrapp .title-wrapp h2 {
+          font-family: 'Star Jedi';
+          font-size: 65px; }
+        body .contact .contact-wrapp .title-wrapp h3 {
+          font-family: 'Star Jedi';
+          font-size: 60px; }
+      body .contact .contact-wrapp .item-wrapp {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        -ms-flex-wrap: no-wrap;
+            flex-wrap: no-wrap; }
+        body .contact .contact-wrapp .item-wrapp .contact-item {
+          text-align: center;
+          margin-left: 15px;
+          margin-right: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .street {
+            font-size: 60px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .location {
+            font-size: 90px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .phone-text {
+            font-size: 45px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .phone-number {
+            font-size: 60px;
+            -ms-flex-direction: column;
+                flex-direction: column;
+            margin-bottom: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item a {
+            display: none; }
+          body .contact .contact-wrapp .item-wrapp .contact-item iframe {
+            width: 600px;
+            height: 300px; }
+      body .contact .contact-wrapp .footer-section {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto; }
+        body .contact .contact-wrapp .footer-section .footer-text {
+          margin: 6% auto 0 auto; } }
 
 @media only screen and (max-width: 800px) {
   body .header_wrapp .header_content_wrapp {
@@ -88,6 +165,12 @@
       margin-top: 375px; }
       body .header_wrapp .header_content_wrapp .header_info_wrapp .button-wrapp button a {
         font-size: 55px; }
+  body .header_wrapp .header_img_wrapp {
+    bottom: -4px;
+    right: -50px; }
+    body .header_wrapp .header_img_wrapp img {
+      width: 900px;
+      margin-top: 15px; }
   body .header_wrapp .header_nav .logo_wrapp {
     margin-right: 35px; }
   body .header_wrapp .header_nav .navbar_wrapp .contact-wrapp {
@@ -138,7 +221,128 @@
     body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
-      max-width: 100%; } }
+      max-width: 100%; }
+  body .price {
+    background-position: 0 50px; }
+    body .price .price-wrapp {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto; }
+      body .price .price-wrapp .title-wrapp {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-align: center;
+            align-items: center;
+        margin-top: 40px; }
+        body .price .price-wrapp .title-wrapp h2 {
+          font-size: 55px; }
+        body .price .price-wrapp .title-wrapp h3 {
+          font-size: 45px; }
+      body .price .price-wrapp .price-content {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        margin-top: 0; }
+        body .price .price-wrapp .price-content .img-wrapp {
+          width: 350px;
+          margin-top: 150px;
+          position: relative; }
+          body .price .price-wrapp .price-content .img-wrapp img {
+            position: absolute;
+            top: -350px;
+            width: 450px; }
+        body .price .price-wrapp .price-content .price-text-wrapp {
+          margin-top: 0; }
+          body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp {
+            -ms-flex-direction: column;
+                flex-direction: column;
+            -ms-flex-align: center;
+                align-items: center;
+            margin-top: 50px; }
+            body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item {
+              border-left: 15px solid #e91105;
+              margin-bottom: 20px;
+              padding-left: 50px; }
+              body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item .title-item {
+                font-size: 20px; }
+              body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item .price-item {
+                font-size: 150px; }
+              body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item .item-description {
+                font-size: 20px;
+                line-height: 3.96;
+                color: #5b5b5b;
+                top: 200px;
+                position: absolute; }
+  body .contact {
+    background-position: top center; }
+    body .contact .contact-wrapp {
+      padding-top: 40px; }
+      body .contact .contact-wrapp .title-wrapp {
+        margin: 0 auto;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+        body .contact .contact-wrapp .title-wrapp h2 {
+          font-family: 'Star Jedi';
+          /* text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9); */
+          font-size: 45px;
+          font-weight: normal;
+          letter-spacing: 6px;
+          color: #e90c00; }
+        body .contact .contact-wrapp .title-wrapp h3 {
+          font-family: 'Star Jedi';
+          /* text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9); */
+          font-size: 40px;
+          font-weight: normal;
+          letter-spacing: 6px;
+          color: #e90c00; }
+      body .contact .contact-wrapp .item-wrapp {
+        margin-top: 40px;
+        margin-bottom: 25px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        -ms-flex-wrap: no-wrap;
+            flex-wrap: no-wrap; }
+        body .contact .contact-wrapp .item-wrapp .contact-item {
+          text-align: center;
+          margin-left: 15px;
+          margin-right: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .street {
+            font-size: 50px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .location {
+            font-size: 90px;
+            margin-top: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .phone-text {
+            font-size: 45px;
+            margin-top: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .phone-number {
+            font-size: 40px;
+            -ms-flex-direction: column;
+                flex-direction: column;
+            margin-bottom: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item a {
+            display: none; }
+          body .contact .contact-wrapp .item-wrapp .contact-item iframe {
+            width: 600px;
+            height: 200px; } }
+
+@media only screen and (max-width: 600px) {
+  body .price .price-wrapp .price-content .img-wrapp {
+    display: none; } }
 
 @media only screen and (max-width: 420px) {
   body .header_wrapp .header_nav .logo_wrapp {
@@ -194,11 +398,11 @@
           text-align: center;
           font-size: 27px; }
   body .header_wrapp .header_img_wrapp {
-    bottom: -50px;
-    right: -100px;
+    bottom: -4px;
+    right: -60px;
     z-index: 1; }
     body .header_wrapp .header_img_wrapp img {
-      width: 650px;
+      width: 550px;
       margin-top: 15px; }
   body .about-exh {
     background-position: top right; }
@@ -239,11 +443,176 @@
     margin-top: 30px; }
   body .media_wrapp .media_container .gallery-wrapp {
     width: 330px;
-    height: 300px; }
+    height: 300px;
+    margin-top: -35px; }
     body .media_wrapp .media_container .gallery-wrapp .slider {
       height: 100%; }
       body .media_wrapp .media_container .gallery-wrapp .slider .slider__wrapper .slider__item {
         /* flex: 0 0 100%;
-                            max-width: 100%; */ } }
+                            max-width: 100%; */ }
+  body .price {
+    background-position: 0 50px; }
+    body .price .price-wrapp {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto; }
+      body .price .price-wrapp .title-wrapp {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-align: center;
+            align-items: center;
+        margin-top: 15px; }
+        body .price .price-wrapp .title-wrapp h2 {
+          font-size: 30px;
+          text-align: center;
+          letter-spacing: normal; }
+        body .price .price-wrapp .title-wrapp h3 {
+          font-size: 25px;
+          text-align: center;
+          margin-top: 10px; }
+      body .price .price-wrapp .price-content {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center; }
+        body .price .price-wrapp .price-content .img-wrapp {
+          width: 450px; }
+        body .price .price-wrapp .price-content .price-text-wrapp {
+          margin: 0 auto; }
+          body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp {
+            -ms-flex-direction: column;
+                flex-direction: column;
+            -ms-flex-align: center;
+                align-items: center;
+            margin-top: 15px; }
+            body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item {
+              border: none;
+              border-left: 5px solid #e91105;
+              border-right: 5px solid #5b5b5b;
+              margin-bottom: 0;
+              padding-left: 10px;
+              padding-right: 10px;
+              margin-bottom: 10px; }
+              body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item .title-item {
+                font-size: 25px; }
+              body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item .price-item {
+                font-size: 125px;
+                margin-bottom: 0;
+                padding: 15px; }
+              body .price .price-wrapp .price-content .price-text-wrapp .items-wrapp .item .item-description {
+                top: 175px;
+                position: absolute; }
+          body .price .price-wrapp .price-content .price-text-wrapp .age-wrapp {
+            margin-top: 30px; }
+            body .price .price-wrapp .price-content .price-text-wrapp .age-wrapp .age-description {
+              font-family: 'Exo 2';
+              font-size: 15px; }
+  body .contact {
+    background-position: top center; }
+    body .contact .contact-wrapp {
+      padding-top: 40px; }
+      body .contact .contact-wrapp .title-wrapp {
+        margin: 0 auto;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+        body .contact .contact-wrapp .title-wrapp h2 {
+          font-family: 'Star Jedi';
+          /* text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9); */
+          font-size: 20px;
+          font-weight: normal;
+          letter-spacing: 6px;
+          color: #e90c00; }
+        body .contact .contact-wrapp .title-wrapp h3 {
+          font-family: 'Star Jedi';
+          /* text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9); */
+          font-size: 25px;
+          font-weight: normal;
+          letter-spacing: 6px;
+          color: #e90c00; }
+      body .contact .contact-wrapp .item-wrapp {
+        margin-top: 40px;
+        margin-bottom: 25px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+        -ms-flex-wrap: no-wrap;
+            flex-wrap: no-wrap; }
+        body .contact .contact-wrapp .item-wrapp .contact-item {
+          text-align: center;
+          margin-left: 15px;
+          margin-right: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .street {
+            font-size: 30px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .location {
+            font-size: 40px;
+            margin-top: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .phone-text {
+            font-size: 20px;
+            margin-top: 15px; }
+          body .contact .contact-wrapp .item-wrapp .contact-item .phone-number {
+            font-size: 40px;
+            -ms-flex-direction: column;
+                flex-direction: column;
+            margin-bottom: 15px; }
+            body .contact .contact-wrapp .item-wrapp .contact-item .phone-number li {
+              margin: 0; }
+          body .contact .contact-wrapp .item-wrapp .contact-item a {
+            display: none; }
+          body .contact .contact-wrapp .item-wrapp .contact-item iframe {
+            width: 300px;
+            height: 150px; }
+      body .contact .contact-wrapp .footer-section .icon-wrapp {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -ms-flex-align: center;
+            align-items: center; }
+        body .contact .contact-wrapp .footer-section .icon-wrapp h2 {
+          font-family: 'Exo 2';
+          font-size: 20px;
+          font-weight: 900;
+          font-stretch: normal;
+          font-style: italic;
+          letter-spacing: 2.93px;
+          color: #5b5b5b; }
+        body .contact .contact-wrapp .footer-section .icon-wrapp .icon {
+          margin-top: 10px;
+          width: 54px;
+          height: 54px;
+          fill: #5b5b5b;
+          transition: .2s;
+          transition-delay: .1s;
+          -webkit-animation-timing-function: ease;
+                  animation-timing-function: ease; }
+        body .contact .contact-wrapp .footer-section .icon-wrapp .icon:hover {
+          fill: #ff0000; }
+      body .contact .contact-wrapp .footer-section .footer-text {
+        margin: 12% auto 0 auto;
+        text-align: center; }
+        body .contact .contact-wrapp .footer-section .footer-text a {
+          text-decoration: none;
+          color: #5b5b5b;
+          font-size: 15px;
+          font-weight: 900;
+          text-transform: uppercase;
+          font-family: 'Exo 2'; }
+          body .contact .contact-wrapp .footer-section .footer-text a span {
+            color: #d30c14; } }
 
 /*# sourceMappingURL=media-sw.css.map */

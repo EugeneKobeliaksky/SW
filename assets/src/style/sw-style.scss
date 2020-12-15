@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "mixins.scss";
 @import "fonts.scss";
+@import "btn-back.scss";
 
 /* base style */
 *, html, body, div, span, object, iframe,
@@ -24,6 +25,7 @@ time, mark, audio, video, h3, span {
    background: transparent;
    text-decoration: none;
    user-select: none;
+   scroll-behavior: smooth;
 }
 
 audio,
@@ -75,7 +77,7 @@ max-width: 1500px;
 //
 ///////////////////////////////////
 body{
-   @import "btn-back.scss";
+   
    background-color: #e7e6ed;
    .header_wrapp{
       width: 100%;
@@ -104,12 +106,14 @@ body{
             .date_text{
                font-size: 50px;
                @include font-akzi;
+               font-style: italic;
 
                color: #fff;
             }
             span{
                font-size: 90px;
                @include font-akzi;
+               font-style: italic;
 
                color: #fff;
             }
@@ -126,6 +130,7 @@ body{
                h2{
                   @include font-akzi;
                   font-size: 75px;
+                  font-style: italic;
                   /* text-align: right; */
                   color: #5b5b5b;
                }
@@ -134,6 +139,7 @@ body{
                margin-left: 225px;
                h3{
                   @include font-akzi;
+                  font-style: italic;
                   font-size: 35px;
                   color: #e91105;
                }
@@ -142,6 +148,7 @@ body{
                margin-top: 25px;
                h4{
                   @include font-date;
+                  font-style: italic;
                   font-size: 33px;
                   color: #e91105;
                }
@@ -304,7 +311,7 @@ body{
          }
          .video-wrapp{
             width: 900px;
-            height: 600px;
+            height: 400px;
             margin-bottom: 50px;
             margin-left: 20px;
             margin-right: 20px;
@@ -411,6 +418,276 @@ body{
                 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
              }
          
+         }
+      }
+   }
+   .price{
+      width: 100%;
+      height: 100vh;
+      background-image: url('../img/sw_page/price_bg.png');
+      background-size: cover;
+      background-position: top center;
+      .price-wrapp{
+         width: 100%;
+         max-width: 1400px;
+         margin: 0 auto;
+         .title-wrapp{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-top: 70px;
+            h2{
+               @include font-sw;
+               /* text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9); */
+               font-size: 70px;
+               font-weight: normal;
+               letter-spacing: 6px;
+               color: #e90c00;
+            }
+            h3{
+               @include font-sw;
+               /* text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9); */
+               font-size: 50px;
+               font-weight: normal;
+               letter-spacing: 6px;
+               color: #e90c00;
+            }
+         }
+         .price-content{
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            .img-wrapp{
+               width: 650px;
+               /* position: relative; */
+               img{
+                  width: 100%;
+                  /* position: absolute;
+                  top: -350px; */
+               }
+            }
+            .price-text-wrapp{
+               .items-wrapp{
+                  display: flex;
+                  align-items: center;
+
+                  margin-top: 100px;
+                  .item{
+                     margin: 0 50px;
+
+                     @include font-btn-info;
+                     display: flex;
+                     flex-direction: column;
+
+                     position: relative;
+                     /* justify-content: flex-start; */
+                     align-items: center;
+                     .title-item{
+                        font-size: 35px;
+                        letter-spacing: normal;
+                        color: #5b5b5b;
+                     }
+                     .price-item{
+                        font-size: 250px;
+                        color: #e90c00;
+                        padding-bottom: 50px;
+                        /* span{
+                           font-size: 20px;
+                        } */
+                     }
+                     .item-description{
+                        font-size: 20px;
+                        line-height: 3.96;
+                        color: #5b5b5b;
+
+                        top: 275px;
+                        position: absolute;
+                     }
+                  }
+               }
+               .age-wrapp{
+                  .age-description{
+                     @include font-exo;
+                     font-size: 25px;
+                     font-weight: 800;
+                     font-style: italic;
+                     text-align: right;
+                     color: #ffffff;
+
+                     /* width: 960px; */
+                     padding: 16px 30px;
+                     background-color: #3d5ed9;
+                     background: #3d5ed9;
+                     background: 
+                     linear-gradient(90deg, #3d5ed9 0%, 
+                                             #3d5ed9 50%, 
+                                             rgba(233,17,5,0) 100%,
+                                             #3d5ed9 100%);
+
+                     text-align: left;
+                     border-radius: 180px 0 0 180px;
+
+                     
+                  }
+               }
+            }
+         }
+      }
+   }
+   .contact{
+      width: 100%;
+      height: 100vh;
+      background-image: url('../img/sw_page/contact_bg.png');
+      background-size: cover;
+      background-position: top center;
+      .contact-wrapp{
+         width: 100%;
+         max-width: 1400px;
+         margin: 0 auto;
+         padding-top: 70px;
+         .title-wrapp{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            h2{
+               @include font-sw;
+               /* text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9); */
+               font-size: 70px;
+               font-weight: normal;
+               letter-spacing: 6px;
+               color: #e90c00;
+            }
+            h3{
+               @include font-sw;
+               /* text-shadow: 3.9px 4.6px 0 rgba(28, 2, 2, 0.9); */
+               font-size: 50px;
+               font-weight: normal;
+               letter-spacing: 6px;
+               color: #e90c00;
+            }
+   
+         }
+         .item-wrapp{
+            margin-top: 70px;
+            margin-bottom: 70px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: no-wrap;
+            .contact-item{
+               width: 100%;
+               iframe{
+                  width: 100%;
+                  height: 100%;
+
+                  box-shadow: 0 0 50px rgb(191, 191, 191);
+               }
+               .street{
+                  font-size: 43.5px;
+                  font-weight: normal;
+                  font-stretch: normal;
+                  font-style: normal;
+                  letter-spacing: normal;
+                  color: #5b5b5b;
+                  @include font-btn-info;
+                
+               }
+               .location{
+                  font-size: 63.5px;
+                  font-weight: 900;
+                  font-stretch: normal;
+                  font-style: normal;
+                  letter-spacing: 3.18px;
+                  color: #d30c14;
+                  @include font-btn-info;
+
+                  margin-top: 25px;
+               }
+               .phone-text{
+                  font-size: 43.5px;
+                  font-weight: normal;
+                  font-stretch: normal;
+                  font-style: normal;
+                  letter-spacing: normal;
+                  color: #5b5b5b;
+                  @include font-btn-info;
+                  margin-top: 25px;
+               }
+               .phone-number{
+                  list-style: none;
+                  display: flex;
+                  @include font-exo;
+                  font-size: 28px;
+                  font-weight: 800;
+                  font-stretch: normal;
+                  font-style: italic;
+                  letter-spacing: normal;
+                  margin-top: 15px;
+                  li{
+                     margin-right: 10px;
+                  }
+                  li:nth-child(1){
+                     color: #2f2f2f;
+                  }
+                  li:nth-child(2){
+                     color: #d30c14;
+                  }
+                  li:nth-child(3){
+                     color: #2f2f2f;
+                  }
+               }
+               a{
+                  text-decoration: none;
+                  @include font-exo;
+                  font-size: 28px;
+                  color: #d30c14;
+                  font-weight: 900;
+                  margin-top: 55px;
+               }
+            }
+         }
+         .footer-section{
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            .icon-wrapp{
+               display: flex;
+               justify-content: space-around;
+               align-items: center;
+               h2{
+                  @include font-exo;
+                  font-size: 48px;
+                  font-weight: 900;
+                  font-stretch: normal;
+                  font-style: italic;
+                  letter-spacing: 2.93px;
+                  color: #5b5b5b;
+               }
+               .icon{
+                  margin-top: 10px;
+                  @include icon-style;
+                  @include anim-set;
+               }
+               .icon:hover{
+                  @include icon-style-hover;
+               }
+            }
+            .footer-text{
+               margin: 12% auto 0 auto;
+               text-align: center;
+               a{
+                  text-decoration: none;
+                  color: #5b5b5b;
+                  font-size: 15px;
+                  font-weight: 900;
+                  text-transform: uppercase;
+                  @include font-exo;
+                  span{
+                     color: #d30c14
+                  }
+               }
+            }
          }
       }
    }

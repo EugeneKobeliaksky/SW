@@ -14,6 +14,16 @@
     <title>Унікальна виставка роботів та трасформерів у натуральну величину в Україні</title>
 </head>
 <body>
+    <!-- <div class="mask">
+        <span class="circle circle-1"></span>
+        <span class="circle circle-2"></span>
+        <span class="circle circle-3"></span>
+        <span class="circle circle-4"></span>
+        <span class="circle circle-5"></span>
+        <span class="circle circle-6"></span>
+        <span class="circle circle-7"></span>
+        <span class="circle circle-8"></span>
+	</div> -->
     <header>
         <div class="wrapper clearfix">
             <div class="logo">
@@ -217,6 +227,16 @@
             });
         }
         initMap();
+    </script>
+    <script>
+    var mask = document.querySelector(".mask");
+
+        window.addEventListener("load", function () {
+            mask.classList.add(".hide");
+            setTimeout(function () {
+                mask.remove();
+            }, 1200);
+        });
     </script>
 </body>
 </html>

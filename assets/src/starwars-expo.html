@@ -30,6 +30,27 @@
 </head>
 
 <body>
+	<div class="mask">
+		<div class="animation-container">
+			<div class="lightning-container">
+				<div class="lightning white"></div>
+				<div class="lightning red"></div>
+			</div>
+			<div class="boom-container">
+				<div class="shape circle big white"></div>
+				<div class="shape circle white"></div>
+				<div class="shape triangle big yellow"></div>
+				<div class="shape disc white"></div>
+				<div class="shape triangle blue"></div>
+			</div>
+			<div class="boom-container second">
+				<div class="shape circle big white"></div>
+				<div class="shape circle white"></div>
+				<div class="shape disc white"></div>
+				<div class="shape triangle blue"></div>
+			</div>
+		</div>
+	</div>
 	<section id="fullpage">
 			//= template/btn-back.html
 		<header class="header_wrapp section">
@@ -322,5 +343,13 @@
 <script src="js/main.js"></script>
 <script src="js/aos.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>var mask = document.querySelector(".mask");
+
+	window.addEventListener("load", function () {
+		mask.classList.add(".hide");
+		setTimeout(function () {
+			mask.remove();
+		}, 600);
+	});</script>
 </body>
 </html>

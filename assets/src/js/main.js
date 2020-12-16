@@ -39,11 +39,4 @@ $(document).ready(function(){
             $('.top').fadeOut();
         }
     });
-    /* Кнопка возврата в начало */
-    $('#top').click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 400);
-        return false;
-    });
 });

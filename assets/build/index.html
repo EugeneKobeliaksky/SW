@@ -25,6 +25,11 @@
 </head>
 
 <body>
+	<div class="mask">
+		<div class="spinner">
+
+		</div>
+	</div>
 	<section class="body-wrap">
 		<header class="workspace-width">
 			<div class="link-info-wrap">
@@ -98,9 +103,20 @@
 	</section>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLcuG5jAMpmeoKD8zyLxQ0Cu-KGH8t0FA&callback=initMap"></script>
     <script src="js/aos.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<link rel="stylesheet" href="css/main.css">
 	<script>
 		AOS.init();
+	</script>
+	<script>
+		var mask = document.querySelector(".mask");
+
+		window.addEventListener("load", function () {
+			mask.classList.add(".hide");
+			setTimeout(function () {
+				mask.remove();
+			}, 600);
+		});
 	</script>
 </body>
 </html>
